@@ -1,0 +1,6 @@
+pandas
+openpyxl
+matplotlib
+seaborn
+requests
+python-dotenv

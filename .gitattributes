@@ -1,0 +1,4 @@
+# 자료 파일은 줄바꿈을 바꾸지 않음 (자료 점검표의 해시가 그대로 유지되도록)
+*.csv -text
+*.xlsx binary
+*.xls binary

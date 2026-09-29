@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 비밀 정보 (DART API 키 등)
+.env
+
+# DART 원문·조회 캐시 (공개하지 않음)
+data/raw/dart/
+data/raw/reports/
+
+# OS
+Thumbs.db
+.DS_Store
