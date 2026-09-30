@@ -14,3 +14,13 @@ data/raw/reports/
 # OS
 Thumbs.db
 .DS_Store
+# 원문 발췌 조각
+data/processed/bank_scan/
+data/processed/term_scan/
+data/processed/eu_check/
+data/processed/kiswire_eu_check.txt
+
+# 백업·캐시
+*.bak
+__pycache__/
+*.pyc
