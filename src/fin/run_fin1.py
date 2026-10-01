@@ -23,11 +23,13 @@ PROC = ROOT / "data" / "processed"
 MANUAL = ROOT / "data" / "manual"
 LOGS = ROOT / "logs" / "fin1"
 
-BASE = ["fin1_subsidiary", "fin1_nonfin_sub", "fin1_unlisted", "fin1_indep", "fin1_owner"]
+BASE = ["fin1_subsidiary", "fin1_nonfin_sub", "fin1_unlisted", "fin1_indep", "fin1_owner",
+        "fin1_excluded_all", "fin1_final_list"]
 LABEL = {"fin1_list": "금융1-1 상장 금융사 후보", "fin1_sector": "금융1-1b 코스피 확정",
          "fin1_subsidiary": "금융1-2 금융 모회사의 종속", "fin1_nonfin_sub": "금융1-2b 명단 밖 모회사의 종속",
          "fin1_unlisted": "금융1-3A 대기업집단 비상장", "fin1_fisis_catalog": "금융1-3C 1단계 FISIS 목록",
-         "fin1_indep": "금융1-3C 2단계 총자산·대조", "fin1_owner": "금융1-3C 3단계 소유 구조"}
+         "fin1_indep": "금융1-3C 2단계 총자산·대조", "fin1_owner": "금융1-3C 3단계 소유 구조",
+         "fin1_excluded_all": "금융1-4 제외 목록", "fin1_final_list": "금융1-5 명단 파일"}
 FIN_WORDS = "금융|증권|캐피탈|보험|은행|지주|홀딩스|투자|신탁|카드|저축"
 
 
@@ -135,7 +137,7 @@ def owner_summary():
         print(f"    → {r['layer']}: {r['account']} ({r['owner']} {r['owner_rate']}%, 등급 {r['source_grade']})")
     keep = a[(a["layer"] == "비상장 비종속(독립·외국계)") & (a["confirmed"] != "미확인")]
     for t, g in keep.groupby(keep["owner_type"].replace("", "유형 미정"), sort=False):
-        print(f"    {t}: " + " · ".join(f"{x}({o} {rt}%, {gr})" for x, o, rt, gr in
+        print(f"    {t}: " + " · ".join(f"{x}({o} {rt + '%' if rt else '지분율 표기 없음'}, {gr})" for x, o, rt, gr in
                                        zip(g["account"], g["owner"], g["owner_rate"], g["source_grade"])))
     pend = a[a["pending"] != ""]
     if len(pend):
@@ -157,6 +159,34 @@ def owner_summary():
             f"{a_} {d_} {n_}" for a_, d_, n_ in zip(pd_["acquirer"], pd_["rcept_dt"], pd_["report_nm"])))
 
 
+def final_summary():
+    f = read(PROC / "fin_list.csv")
+    if not len(f):
+        return
+    print(f"\n[8] 금융1-5 명단 {len(f)}곳 → data/processed/fin_list.csv")
+    print("    층별: " + " · ".join(f"{k} {v}" for k, v in f["layer"].value_counts().items()))
+    print("    공시 연도: " + " · ".join(f"{k} {v}" for k, v in f["disclosure_year"].value_counts().items()))
+    log = (LOGS / "fin1_final_list.log").read_text(encoding="utf-8") if (LOGS / "fin1_final_list.log").exists() else ""
+    if "[층 사이 중복] 없음" in log:
+        print("    층 사이 중복: 없음")
+    else:
+        print("    층 사이 중복: 있음 — logs/fin1/fin1_final_list.log 확인")
+    lk = f[f["mfg_link"].astype(str) != ""].copy()
+    if len(lk):
+        lk["n"] = lk["mfg_link"].astype(int)
+        print("    제조 연계(35곳 중): " + " · ".join(f"{a} {n}" for a, n in
+                                              lk.sort_values("n", ascending=False)[["account", "n"]].values))
+    u = read(PROC / "fin_mfg_link_unmatched.csv")
+    if len(u):
+        print("    명단에 없는 차입처(참고): " + " · ".join(f"{a} {n}" for a, n in u.head(8).values))
+    e = read(PROC / "fin_excluded_all.csv")
+    k = read(PROC / "fin_excluded_key.csv")
+    if len(e):
+        print(f"\n[9] 금융1-4 제외 {len(e)}행 (금융회사인데 뺀 곳 {len(k)}행)")
+        for g, v in e["reason_group"].value_counts().items():
+            print(f"    {g}: {v}")
+
+
 def main():
     todo = steps(sys.argv[1:])
     print(f"금융-1 실행 — {len(todo)}단계")
@@ -164,6 +194,7 @@ def main():
         run(s)
     summary()
     owner_summary()
+    final_summary()
 
 
 if __name__ == "__main__":

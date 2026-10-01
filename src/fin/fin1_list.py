@@ -567,7 +567,7 @@ def report(tag, fin, ctrl, ex, need, out, ctrl_out, excl_out, review_out):
     pd.set_option("display.width", 250)
     pd.set_option("display.max_rows", 300)
     print(f"\n{tag} {len(fin)}곳 → {out.relative_to(ROOT)}")
-    print(f"  지배 근거: " + " · ".join(f"{k} {v}" for k, v in fin["control"].value_counts().items()))
+    print("  지배 근거: " + " · ".join(f"{k} {v}" for k, v in fin["control"].value_counts().items()))
     print(f"  판정 근거: 코드 {(fin['sector_by'] == '코드').sum()} · 이름 {(fin['sector_by'] == '이름').sum()}")
     print(f"실질 지배 검토(지분 30~50%·자산 1조 이상) {len(ctrl)}곳 → {ctrl_out.relative_to(ROOT)}")
     print(f"이름 판정 검토 {len(need)}곳 → {review_out.relative_to(ROOT)}")
