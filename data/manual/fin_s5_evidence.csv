@@ -1,0 +1,18 @@
+﻿account,aliases,party,event_date,form,field,summary,source_grade,source,source_url,note
+(주)국민은행,국민은행|KB국민은행,직접,2024-12,갱신,인프라,IBM과 2025년 7월 만료 메인프레임 계약을 2030년까지 갱신(코어뱅킹 현대화 발표),4,KB국민은행 발표(메트로신문 게재),https://www.metroseoul.co.kr/article/20241201500005,
+(주)국민은행,국민은행|KB국민은행,직접,2022-01,도입,Data & AI,IBM 엑스퍼트 랩 서비스로 마이데이터 서비스 '머니크루' 개발 지원,4,한국IBM 뉴스룸,https://kr.newsroom.ibm.com/announcements?l=50&o=100,
+롯데카드(주),롯데카드,직접,2023-04,도입,인프라,IBM 파워10으로 계정계 시스템 고도화(클라우드 자원 소비 모델 적용),4,한국IBM 뉴스룸·보안뉴스,https://m.boannews.com/html/detail.html?idx=117044,2020-04 계정계 클라우드 전환 협업도 있음
+하나캐피탈(주),하나캐피탈,직접,2024-04,도입,인프라,차세대 전산 '디지털 트랜스포메이션 리빌드'의 이중화·재해복구 스토리지(IBM 플래시시스템),4,한국IBM 뉴스룸,https://kr.newsroom.ibm.com/announcements?l=50&o=50,
+메리츠증권(주),메리츠증권,직접,2026-03,도입,인프라,핵심 거래 시스템에 IBM 파워11 서버 제공,4,한국IBM 뉴스룸,https://kr.newsroom.ibm.com/announcements?l=50&o=0,
+(주)우리은행,우리은행,직접,2021-05,MOU,Data & AI,KT·한국IBM과 AI 심사역 고도화·AI뱅커 등 AI 혁신 업무협약(AI랩),5,데일리안,https://m.dailian.co.kr/news/view/988872,과거 메인프레임 OIO 장기 계약도 있음(아이뉴스24 2014)
+현대카드(주),현대카드,직접,2017-08,도입,Data & AI,왓슨 기반 챗봇 '현대카드 버디',4,한국IBM 뉴스룸,https://kr.newsroom.ibm.com/announcements?l=50&o=250,2019-11 한솔인티큐브 경유 왓슨 음성봇(파트너 경유)
+현대커머셜(주),현대커머셜|현대카드커머셜,직접,2019-02,도입,인프라,"현대카드커머셜, IBM과 클라우드 협력으로 디지털 혁신 강화",4,한국IBM 뉴스룸,https://kr.newsroom.ibm.com/announcements?l=50&o=250,
+(주)부산은행,부산은행|BNK부산은행,직접,2020-10,도입,인프라,IBM 멀티클라우드 관리용 클라우드 팩 도입,4,한국IBM 뉴스룸,https://kr.newsroom.ibm.com/announcements?l=50&o=200,2019-03 IBM 블록체인 월드와이어 국내 첫 가입
+(주)아이엠금융지주,아이엠금융지주|iM금융지주|DGB금융지주,그룹 IT,2020-10,도입,보안,그룹 IT 자회사 DGB데이터시스템이 IBM 큐레이더로 보안관제센터 구축,4,한국IBM 뉴스룸,https://kr.newsroom.ibm.com/announcements?l=50&o=200,명단 밖 그룹 IT 자회사 계약 → 대표 회사 계약으로 봄(결정 C)
+(주)하나은행,하나은행|KEB하나은행,직접,2017-08,계약,서비스,하나은행·하나카드·하나금융투자 IT 인프라 통합유지보수(MVS),4,한국IBM 뉴스룸,https://kr.newsroom.ibm.com/announcements?l=50&o=250,IBM 인프라 서비스는 2021-11 킨드릴로 분사
+하나카드(주),하나카드,직접,2017-08,계약,서비스,하나금융그룹 통합유지보수(MVS) 대상 관계사,4,한국IBM 뉴스룸,https://kr.newsroom.ibm.com/announcements?l=50&o=250,킨드릴 분사
+하나증권(주),하나증권|하나금융투자,직접,2017-08,계약,서비스,하나금융그룹 통합유지보수(MVS) 대상 관계사(당시 하나금융투자),4,한국IBM 뉴스룸,https://kr.newsroom.ibm.com/announcements?l=50&o=250,킨드릴 분사
+유진투자증권(주),유진투자증권,직접,2020-11,계약,서비스,10년 인프라 서비스 전략적 아웃소싱 계약,4,한국IBM 뉴스룸,https://kr.newsroom.ibm.com/announcements?l=50&o=150,킨드릴 분사로 현재 계약 주체는 킨드릴일 가능성
+한화생명보험(주),한화생명,직접,2015,계약,보안,정보보호 관리체계·보안 컨설팅 완료,5,아이뉴스24,https://www.inews24.com/view/842943,
+중소기업은행,IBK기업은행|기업은행,직접,2000년대,계약,구축,차세대 시스템 구축 사업자로 한국IBM 선정(코어뱅킹·외환),5,디지털타임스,https://www.dt.co.kr/series/S010200509,
+비씨카드(주),비씨카드|BC카드,직접,2010년대,계약,인프라,메인프레임 등 전산장비를 6년간 단계 도입하는 OIO 계약,5,아이뉴스24,https://www.inews24.com/view/717633,
