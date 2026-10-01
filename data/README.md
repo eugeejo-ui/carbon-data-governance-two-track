@@ -39,3 +39,4 @@
 | external/energy_ladder/step1_unlisted_final.csv | - | UTF-8 (BOM) | 1 | 32 | 16 | 일치 | kets_code, kets_name, kets_ksic, corp_code, dart_name, report | 91c218e39d04 |
 | external/energy_ladder/target_firms.csv | - | UTF-8 (BOM) | 1 | 73 | 10 | 일치 | source, corp_code, name, kets_name, ksic, kets_member | 78e51f003e40 |
 | external/uci/steel_15min_clean.csv | - | UTF-8 (BOM) | 1 | 35,040 | 10 | 일치 | interval_start, kwh, kw, co2, load_type_raw, weekday | 3a126fb7fe77 |
+- data/raw/ftc/소속회사_개요.xlsx — 공정거래위원회 기업집단포털(egroup.go.kr) 소속회사 개요, 2026-05 공개분. 금융1-3A 대기업집단 소속 비상장 금융보험사 추출에 사용. 받은 날짜: (받으신 날짜)

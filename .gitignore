@@ -14,13 +14,20 @@ data/raw/reports/
 # OS
 Thumbs.db
 .DS_Store
-# ¿ø¹® ¹ßÃé Á¶°¢
+# ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 data/processed/bank_scan/
 data/processed/term_scan/
 data/processed/eu_check/
 data/processed/kiswire_eu_check.txt
 
-# ¹é¾÷¡¤Ä³½Ã
+# ï¿½ï¿½ï¿½ï¿½ï¿½Ä³ï¿½ï¿½
 *.bak
 __pycache__/
 *.pyc
+# FISIS(ê¸ˆê°ì› ê¸ˆìœµí†µê³„) API ì‘ë‹µ ìºì‹œ â€” DART ìºì‹œì™€ ê°™ì€ ì·¨ê¸‰
+data/raw/fisis/
+# DART °¨»çº¸°í¼­ ¿ø¹® Ä³½Ã
+data/raw/dart_docs/
+
+# ½ÇÇà ·Î±×
+logs/
