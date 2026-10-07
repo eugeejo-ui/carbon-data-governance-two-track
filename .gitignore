@@ -26,8 +26,11 @@ __pycache__/
 *.pyc
 # FISIS(кё€к°ђм›ђ кё€мњµн†µкі„) API мќ‘л‹µ мєђм‹њ вЂ” DART мєђм‹њм™Ђ к°™мќЂ м·Ёкё‰
 data/raw/fisis/
-# DART °Ё»зєё°нј­ їш№® ДіЅГ
+# DART пїЅпїЅпїЅзєёпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ ДіпїЅпїЅ
 data/raw/dart_docs/
 
-# ЅЗЗа ·О±Ч
+# пїЅпїЅпїЅпїЅ пїЅО±пїЅ
 logs/
+
+# private work guide (do not publish)
+/CLAUDE.md
