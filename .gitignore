@@ -34,3 +34,5 @@ logs/
 
 # private work guide (do not publish)
 /CLAUDE.md
+data/external/demo_fin/
+data/external/demo_mfg/
