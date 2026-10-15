@@ -19,17 +19,21 @@
 
 | 구분 | 번호 | 내용 |
 |---|---|---|
-| 개요 | — | 프로젝트 성격·질문·범위 |
-| 🧭 Ⅰ 맥락 | Ⅰ-1 | 출발점 — 은행 수출서류 판독 시스템의 한 층 |
-| | Ⅰ-2 | 레포 계보 — 대상·시점 선별 질문에 답하는 과정 |
-| | Ⅰ-3 | 규제 배경 — 수요 발생 시점 |
-| | Ⅰ-4 | 판매 대상 — 탄소 데이터 4층 구조와 이중 보고 대조 부담 |
-| | Ⅰ-5 | 두 트랙의 연결 — 은행의 탄소 데이터 요구 |
-| 🔍 Ⅱ 선별 | Ⅱ-1 | 제조 트랙 — CBAM 1차 업종 제조사 |
-| | Ⅱ-2 | 금융 트랙 — 금융회사 |
-| | Ⅱ-3 | 연도별 진입 로드맵 |
-| 📌 Ⅲ 결론 | Ⅲ-1 | 제품 검증 — watsonx.data intelligence의 공백 충족 가능 여부·시연 진행 상황 |
-| | Ⅲ-2 | 어디에 무엇을 — 10개 기업별 IBM 제품 |
+| 개요 | — | 프로젝트 성격·구성·범위 |
+| 🔑 Ⅰ 문제 정의 | Ⅰ-1 | 왜 금융 고객인가 — IBM 소프트웨어의 기존 고객 기반 |
+| | Ⅰ-2 | 왜 은행의 수출서류 심사인가 — 제조사가 쓰고 은행이 판단하는 업무 |
+| | Ⅰ-3 | 선행 프로젝트로 드러난 문제 — 같은 구조가 탄소 데이터에서 반복됨 |
+| | Ⅰ-4 | 본 발표의 문제와 성공 기준 |
+| 🧭 Ⅱ 맥락 | Ⅱ-1 | 출발점 검증 — 판독 모델 한 층의 매출 지점과 진입 여지 |
+| | Ⅱ-2 | 레포 계보 — 대상·시점 선별 질문에 답하는 과정 |
+| | Ⅱ-3 | 규제 배경 — 수요 발생 시점 |
+| | Ⅱ-4 | 판매 대상 — 탄소 데이터 4층 구조와 이중 보고 대조 부담 |
+| | Ⅱ-5 | 두 트랙의 연결 — 은행의 탄소 데이터 요구 |
+| 🔍 Ⅲ 선별 | Ⅲ-1 | 제조 트랙 — CBAM 1차 업종 제조사 |
+| | Ⅲ-2 | 금융 트랙 — 금융회사 |
+| | Ⅲ-3 | 연도별 진입 로드맵 |
+| 📌 Ⅳ 결론 | Ⅳ-1 | 제품 검증 — watsonx.data intelligence의 공백 충족 가능 여부·시연 진행 상황 |
+| | Ⅳ-2 | 어디에 무엇을 — 10개 기업별 IBM 제품 |
 | 부록 | — | 진행 문서 표기 대조·추가 그림·조사 원칙·출처 |
 
 </details>
@@ -37,7 +41,7 @@
 ---
 
 <details open>
-<summary><b>개요 — 프로젝트 성격·질문·범위</b></summary>
+<summary><b>개요 — 프로젝트 성격·구성·범위</b></summary>
 
 ### 프로젝트 성격
 
@@ -46,47 +50,159 @@
 - 진행 순서: 고객 과제를 숫자로 찾음 → 그 숫자로 누구부터 접촉할지 정함 → 기업별 데이터의 특수성에 맞는 IBM 제품을 연결함
 - 따라서 판단의 무게는 데이터의 양이 아닌 선별 기준의 타당성과 근거의 추적 가능성에 있음
 
-### 본 발표가 답하는 질문
+### 구성
 
-- 누구에게: 탄소 데이터 거버넌스 제품(IBM watsonx.data intelligence)을 어떤 규모의 어느 제조사·금융회사에 제안하는가
-- 언제: 각 기업에 어느 연도에 접촉하는가
-- 무엇을: 각 기업의 데이터와 특수성에 맞춰 IBM 제품 중 무엇을 제안하는가
+- 문제 정의 → 분석 → 실행 → 성과 순서로 구성함
+- Ⅰ 문제 정의: 왜 은행에서 출발했으며, 은행이 쓰는 숫자의 무엇이 비어 있는가
+- Ⅱ 맥락(분석): 왜, 언제 수요가 생기는가
+- Ⅲ 선별(실행): 누구에게, 언제 가는가
+- Ⅳ 결론(성과): 어디에 무엇을 파는가
 
 ### 발표 범위
 
-- 진행 문서 00\~07(분석 단계): 대상 선별·채점·연도별 로드맵 — Ⅰ·Ⅱ부
-- 진행 문서 08\~10(시연 단계, 2026-10-14 기준 진행 중): 시연 대상 기업 8곳의 공개 데이터와 시연 설계를 Ⅲ-1.3·Ⅲ-2에 사용함. 시연 결과(실제 형태 데이터 판정)는 포함하지 않음
+- 선행 프로젝트(trade-doc-parsing-model-eval)의 결과: 출발 고객과 업무를 정한 근거로 Ⅰ부에 사용함
+- 진행 문서 00\~07(분석 단계): 대상 선별·채점·연도별 로드맵 — Ⅱ·Ⅲ부
+- 진행 문서 08\~10(시연 단계, 2026-10-14 기준 진행 중): 시연 대상 기업 8곳의 공개 데이터와 시연 설계를 Ⅳ-1.3·Ⅳ-2에 사용함. 시연 결과(실제 형태 데이터 판정)는 포함하지 않음
 
 </details>
 
-## 🧭 Ⅰ 맥락 — 왜, 언제 수요가 생기는가
+## 🔑 Ⅰ 문제 정의 — 왜 은행이며, 무엇이 비어 있는가
 
-<p align="center"><img src="figures/presentation/part1_context.png" width="100%" alt="Ⅰ 맥락"></p>
+<p align="center"><img src="figures/presentation/part1_problem.png" width="100%" alt="Ⅰ 문제 정의"></p>
+
+<p align="center"><img src="figures/presentation/p1_selection_funnel.png" width="100%" alt="출발 고객과 업무의 선정 경로"></p>
+
+<p align="center"><sub>판매 영역(소프트웨어)에서 고객(금융권)·심사 주체(은행)·업무(수출서류 심사) 순으로 좁혀 IBM이 들어갈 한 층을 정함</sub></p>
 
 <details>
-<summary><b>Ⅰ-1. 출발점 — 은행 수출서류 판독 시스템의 한 층</b></summary>
+<summary><b>Ⅰ-1. 왜 금융 고객인가 — IBM 소프트웨어의 기존 고객 기반</b></summary>
 
-### Ⅰ-1.1 출발 배경
+### Ⅰ-1.1 판매 영역 — 소프트웨어
 
-- IBM의 전통적 강점은 금융 고객 기반임
-- 따라서 첫 선행 프로젝트(trade-doc-parsing-model-eval)는 은행의 수출서류(신용장 부속서류) 판독 업무에서 시작함
-- 선행 프로젝트 결과: 은행 내부 서버에 설치 가능한 판독 모델 2종(IBM Granite Docling 258M · PaddleOCR-VL 0.9B)의 상업송장 150장 금액·날짜·상호 추출 정확도가 동일함. 도입 여부는 모델 성능이 아닌 운영비와 재제출 비용의 비율이 결정함
+- IBM 2025년 매출 675.4억 달러 중 소프트웨어 부문이 299.6억 달러(44%)이며, 부문 이익 합계 163.6억 달러 중 99.2억 달러(61%)를 차지함
+- 소프트웨어 매출은 전년 대비 10.6% 증가했으며 부문 이익률은 33.1%임 → 성장과 이익을 함께 주도하는 소프트웨어 부문을 판매 영역으로 정함
 
-### Ⅰ-1.2 은행 판독 시스템에 모델 한 층으로 진입하는 근거
+### Ⅰ-1.2 고객 — 금융권
+
+- IBM 공식 자료: 세계 50대 은행 중 43곳, 10대 결제회사 중 8곳이 IBM 메인프레임을 핵심 플랫폼으로 사용함 (Ⅲ-2.6)
+- 국내 거래: 국민은행 메인프레임 계약 2030년까지 갱신(2024-12) 등 금융회사와의 거래 관계가 존재함 (Ⅲ-2.6)
+- 금융회사는 민감 데이터의 외부 반출을 제한함 — 한국은 망분리·데이터 민감도·규제 승인 부담이 내재화 범위를 결정하며, 금융회사 80%(아시아태평양 87%)가 AI 공급사 선정 시 출신 국가를 고려함 (딜로이트, 2026-09) → 은행 내부에 설치하는 소프트웨어 수요가 존재함
+
+### Ⅰ-1.3 불리한 근거
+
+- 국내 기존 관계는 인프라(메인프레임·서버·스토리지) 중심이며, 데이터·AI 공개 사례는 2022년 국민은행 개발 지원 1건이고 거버넌스 제품 계약은 없음 (Ⅲ-2.6)
+- 국내 시중은행 대부분이 메인프레임을 떠남 (Ⅲ-2.6)
+
+</details>
+
+<details>
+<summary><b>Ⅰ-2. 왜 은행의 수출서류 심사인가 — 제조사가 쓰고 은행이 판단하는 업무</b></summary>
+
+### Ⅰ-2.1 업무 구조
+
+- 신용장은 개설은행이 일치하는 서류 제시에 대해 대금 지급을 확약하는 약정이며, 개설은행은 신용장을 발행하는 은행으로 정의됨 (UCP 600 제2조) → 서류 심사의 주체는 은행임
+- 수출 제조기업이 상업송장·포장명세서·선하증권을 작성해 제출하고, 은행이 신용장 조건과 대조해 심사함 → 하나의 문서를 사이에 두고 제조업과 금융업이 연결됨
+- 구매자는 은행이며, 서류 작성자는 수출 제조기업임
+
+### Ⅰ-2.2 은행 심사의 부담
+
+- 신용장 서류의 1차 제출 거절률은 세계 기준 65\~80%로 추정됨 (ICC 은행위원회 기술 자문 브리핑 3호, 2022-06)
+- 은행은 서류 일치 여부 판단에 제출 다음 날부터 최대 5영업일을 사용함 (UCP 600 제14조 b) → 거절 시 수출 제조기업은 서류를 다시 작성해 제출하며, 재심사에 다시 최대 5영업일이 소요됨
+- 일치 여부의 판정 규칙이 UCP 600과 국제표준은행관행으로 명문화되어 있어, 판독 모델의 출력을 평가할 기준이 외부에 존재함
+
+### Ⅰ-2.3 은행 내부 설치 — 판독 모델 한 층의 자리
 
 - 출처: 딜로이트 「아시아태평양 금융서비스 산업의 미래」(2026-09)
   - 공급망 재편으로 무역금융·거래은행 수요가 증가함 (13쪽). 한국에도 무역금융 수요가 존재함 (18쪽)
   - 선택적 내재화: 판단 규칙·판단근거 기록은 은행이 보유하고 범용 모델은 외부에서 도입함. 한국은 망분리·데이터 민감도·규제 승인 부담이 내재화 범위를 결정함 (36쪽)
   - 기술주권: 금융회사 80%(아시아태평양 87%)가 AI 공급사 선정 시 출신 국가를 고려함. 보고서는 완전한 독립이 아닌 신뢰할 수 있는 파트너십을 권고함 (39쪽)
   - 실제 사례: KB국민은행의 법인 고객 확인 서류 AI 판독 (42쪽)
+- 실제 사례: 하나은행은 자체 개발 판독 AI(하나금융융합기술원 리딧)로 수출환어음 매입을 자동화했으며(2024-06), 비대면 AI 수출서류작성 가이드(2026-03-25)의 AI 엔진을 은행 내부 서버에 구축함. IBM 납품 근거는 없음 (Ⅱ-1.2)
 
 ![은행 수출서류 판독 시스템에서 IBM의 위치](figures/presentation/02_tradedoc_layers.png)
 
 <p align="center"><sub>완성 시스템이 아닌 판독 모델 한 층(2번)만 IBM이 공급하며, 판단 규칙과 기록은 은행이 보유함</sub></p>
 
-### Ⅰ-1.3 IBM 판매 정책상 모델 한 층 공급 가능 여부
+### Ⅰ-2.4 불리한 근거
 
-<p align="center"><img src="figures/presentation/tables/i1_3_sales_policy.png" width="100%" alt="Ⅰ-1.3 IBM 판매 정책상 모델 한 층 공급 가능 여부"></p>
+- IBM 공식 조사(2026 CEO Study)에는 무역금융·문서 처리 언급이 없음 → 업무 선정은 IBM의 강조 영역이 아닌 자체 판단에 근거함
+- ICC 거절률은 추정 범위이며, 최종 지급 거절률이 아닌 1차 제출 기준임
+- 2026-04 망분리 규정 개정으로 금융보안원 등의 평가를 거친 SaaS 이용이 허용되어, 모든 은행에 내부 설치가 강제되지 않음 (Ⅱ-1.1)
+
+</details>
+
+<details>
+<summary><b>Ⅰ-3. 선행 프로젝트로 드러난 문제 — 같은 구조가 탄소 데이터에서 반복됨</b></summary>
+
+### Ⅰ-3.1 선행 프로젝트(trade-doc-parsing-model-eval) 결과
+
+- 은행 내부 서버에 설치 가능한 판독 모델 2종(IBM Granite Docling 258M · PaddleOCR-VL 0.9B)의 상업송장 150장 금액·날짜·상호 추출 정확도가 동일함
+- 도입 여부는 모델 성능이 아닌 운영비와 재제출 비용의 비율이 결정함
+
+### Ⅰ-3.2 드러난 문제 — 판독 모델 층의 자리는 대부분 채워짐
+
+- 대형 은행 7곳 중 5곳은 판독 AI를 운영하거나 구축 중임 (Ⅱ-1.2)
+- 진입 여지는 중견 은행 10곳과 공개 자료가 없는 대형 은행 2곳에 남으나, 공개 자료만으로 즉시 식별되지 않음
+- 선행 프로젝트는 '무엇을 제안하는가'를 정했으나 '누구에게·언제'는 다루지 않음
+
+### Ⅰ-3.3 같은 구조, 다른 숫자
+
+<p align="center"><img src="figures/presentation/p1_same_structure.png" width="100%" alt="같은 구조, 다른 숫자"></p>
+
+<p align="center"><sub>은행이 거래 제조사의 숫자로 판단하는 구조는 같으며, 판독 모델 층은 대부분 채워졌으나 탄소 데이터 근거 관리 층은 비어 있음</sub></p>
+
+- 수출서류: 수출 제조기업이 작성한 서류의 금액·날짜·상호로 은행이 신용장 심사를 함
+- 탄소 배출량: CBAM 대상 제조사가 신고한 배출량이 은행 금융배출량 산정의 입력값이 됨 (Ⅱ-5.1)
+- 고객(은행)은 같고 숫자만 바뀜 → 판매 제품이 판독 모델에서 탄소 데이터 거버넌스로 바뀐 경과는 Ⅱ-2(레포 계보)에 기록함
+
+</details>
+
+<details open>
+<summary><b>Ⅰ-4. 본 발표의 문제와 성공 기준</b></summary>
+
+<p align="center"><img src="figures/presentation/p1_problem_card.png" width="100%" alt="본 발표의 문제와 성공 기준"></p>
+
+<details>
+<summary>카드 원문 보기</summary>
+
+### Ⅰ-4.1 문제
+
+> 은행은 거래 제조사가 낸 숫자로 심사하고 공시하지만, 그 숫자가 어디서 왔는지 증명하는 일은 비어 있음. 이 빈자리를 채우는 IBM 제품을 누구에게 언제 팔지 정함
+
+### Ⅰ-4.2 답하는 질문
+
+- 누구에게: 탄소 데이터 거버넌스 제품(IBM watsonx.data intelligence)을 어떤 규모의 어느 제조사·금융회사에 제안하는가 → Ⅲ-1·Ⅲ-2
+- 언제: 각 기업에 어느 연도에 접촉하는가 → Ⅲ-3
+- 무엇을: 각 기업의 데이터와 특수성에 맞춰 IBM 제품 중 무엇을 제안하는가 → Ⅳ-2
+
+### Ⅰ-4.3 성공 기준
+
+- 공백 확인: 제조사 94곳·금융회사 278곳 전체에 근거 관리 층 공백 가설을 적용해 채택·기각을 판정함 (Ⅲ-1.2·Ⅲ-2.2)
+- 대상·시점 결정: 결과 확인 전에 확정한 채점 기준으로 우선 계정과 접촉 연도를 정함 (Ⅲ-1·Ⅲ-2·Ⅲ-3)
+- 제품 결정: 기업별 데이터 특수성에 맞는 IBM 제품을 정하고, 불리한 근거와 결론에 붙는 조건을 함께 기록함 (Ⅳ-2)
+- 추적 가능성: 모든 명단·숫자를 진행 문서와 데이터 파일로 추적할 수 있음
+
+### Ⅰ-4.4 범위의 한계
+
+- 공개 자료 범위의 판정이며, 기업 내부 자료로 검증하지 않음
+- 시연 결과(실제 형태 데이터 판정)는 포함하지 않음 (Ⅳ-1.3)
+
+</details>
+
+</details>
+
+---
+
+## 🧭 Ⅱ 맥락 — 왜, 언제 수요가 생기는가
+
+<p align="center"><img src="figures/presentation/part2_context.png" width="100%" alt="Ⅱ 맥락"></p>
+
+<details>
+<summary><b>Ⅱ-1. 출발점 검증 — 판독 모델 한 층의 매출 지점과 진입 여지</b></summary>
+
+### Ⅱ-1.1 IBM 판매 정책상 모델 한 층 공급 가능 여부
+
+<p align="center"><img src="figures/presentation/tables/ii1_1_sales_policy.png" width="100%" alt="Ⅱ-1.1 IBM 판매 정책상 모델 한 층 공급 가능 여부"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -101,7 +217,7 @@
 
 </details>
 
-### Ⅰ-1.4 국내 대형·중견 금융사의 판독 AI 자체 구축 현황
+### Ⅱ-1.2 국내 대형·중견 금융사의 판독 AI 자체 구축 현황
 
 **조사 대상과 규모 구분**
 
@@ -112,7 +228,7 @@
 
 **은행 — 무역·외환 서류 판독 AI**
 
-<p align="center"><img src="figures/presentation/tables/i1_4_bank_ai.png" width="100%" alt="Ⅰ-1.4 국내 대형·중견 금융사의 판독 AI 자체 구축 현황"></p>
+<p align="center"><img src="figures/presentation/tables/ii1_2_bank_ai.png" width="100%" alt="Ⅱ-1.2 국내 대형·중견 금융사의 판독 AI 자체 구축 현황"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -134,7 +250,7 @@
 
 **비은행 대형 금융사 26곳 — 문서 판독 AI(보험금 청구 서류·계약 서류 등)**
 
-<p align="center"><img src="figures/presentation/tables/i1_4_nonbank_ai.png" width="100%" alt="Ⅰ-1.4 국내 대형·중견 금융사의 판독 AI 자체 구축 현황"></p>
+<p align="center"><img src="figures/presentation/tables/ii1_2_nonbank_ai.png" width="100%" alt="Ⅱ-1.2 국내 대형·중견 금융사의 판독 AI 자체 구축 현황"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -173,19 +289,19 @@
 - 비은행 대형 보험사 다수는 국내 문서 AI 업체 솔루션을 운영 중임 → 자체 미구축 금융사 상당수는 빈 시장이 아닌 교체·고도화 시장임
 - IBM은 SC그룹과 무역서류 AI를 공동 개발한 이력(2019)이 있으나, 모델 한 층이 아닌 공동 완성 솔루션 형태였음
 
-### Ⅰ-1.5 결론과 남은 질문
+### Ⅱ-1.3 결론과 남은 질문
 
 - 결론: IBM은 완성 시스템이 아닌 판독 모델 한 층으로 진입하며, 매출은 그 층에 붙는 면책·기술 지원·플랫폼 계약에서 발생함
 - 하나은행 사례의 성격: 규모 있는 은행이 판독 시스템을 내부 서버에 직접 구축한다는 실제 사례이며, IBM 납품 근거는 없음
 - 남은 질문: 판독 AI를 자체 구축하지 않은 금융사를 공개 자료로 어떻게 찾고, 어느 시점에 접근하는가
-- 선행 프로젝트(trade-doc)는 '무엇을 제안하는가'를 결정했으나 '누구에게·언제'는 다루지 않음 → Ⅰ-2의 과정을 거쳐 본 레포가 이 질문을 이어받음
+- 선행 프로젝트(trade-doc)는 '무엇을 제안하는가'를 결정했으나 '누구에게·언제'는 다루지 않음 → Ⅱ-2의 과정을 거쳐 본 레포가 이 질문을 이어받음
 
 </details>
 
 <details>
-<summary><b>Ⅰ-2. 레포 계보 — 대상·시점 선별 질문에 답하는 과정</b></summary>
+<summary><b>Ⅱ-2. 레포 계보 — 대상·시점 선별 질문에 답하는 과정</b></summary>
 
-### Ⅰ-2.1 경과
+### Ⅱ-2.1 경과
 
 <details>
 <summary>표 원문 보기</summary>
@@ -206,7 +322,7 @@
 
 - IBM의 제조업 관심: 2026년 한국IBM의 제조 대상 행사 3회로 확인됨 (3월 5일 CIO코리아 조찬 · 5월 19일 데이터 리더십 행사 · 6월 16일 산업AX KOREA 'AI Ready Data' — 거버넌스·카탈로그·품질·계보)
 
-### Ⅰ-2.2 도출 원칙
+### Ⅱ-2.2 도출 원칙
 
 - 이미 채워진 자리(금융사 자체 구축·정부 무상 사업·기존 벤더)는 피함
 - 공개 자료 범위에서 아직 비어 있는 층과 고객만 노림
@@ -215,20 +331,20 @@
 </details>
 
 <details>
-<summary><b>Ⅰ-3. 규제 배경 — 수요 발생 시점</b></summary>
+<summary><b>Ⅱ-3. 규제 배경 — 수요 발생 시점</b></summary>
 
-### Ⅰ-3.1 제조 — EU 탄소국경조정제도(CBAM)
+### Ⅱ-3.1 제조 — EU 탄소국경조정제도(CBAM)
 
 - 2026-01-01 확정 기간 개시 → 2027-02-01 인증서 판매 시작 → 2027-09-30 첫 연례 신고·인증서 반납
 - 실측 배출량 미제출 시 기본값에 할증이 적용되며, 할증률은 2026년 10% → 2027년 20% → 2028년 30%로 확대됨
 - 하류 품목 확대: 2028-01-01 적용 목표이나 EU 3자 협상 중임 (1차 정치 협상 2026-10-20, 2차 2026-11-30 잠정, 연내 합의 목표) — 미정
 
-### Ⅰ-3.2 금융 — 지속가능성(ESG) 공시 법제화
+### Ⅱ-3.2 금융 — 지속가능성(ESG) 공시 법제화
 
 - 정부 최종안(금융위원회, 2026-07-08): 2028년 연결자산 10조 원 이상 코스피 상장사부터 사업보고서 법정 공시 시작 → 2030년 제3자 인증 시작 → 2031년 금융배출량(대출·투자 대상 기업의 배출량) 공시 시작
 - 자본시장법 개정안은 국회 계류 중이며, 금융배출량 공시는 2026-10 기준 자율임
 
-### Ⅰ-3.3 공급망 탄소 관리 확산
+### Ⅱ-3.3 공급망 탄소 관리 확산
 
 - 출처: 딜로이트 「공급망 저탄소 전환」(2026-09)
   - 공급망 탄소를 관리하는 코스피 기업 비율이 14.6%에서 24.8%로 증가함 (3쪽)
@@ -241,9 +357,9 @@
 </details>
 
 <details>
-<summary><b>Ⅰ-4. 판매 대상 — 탄소 데이터 4층 구조와 이중 보고 대조 부담</b></summary>
+<summary><b>Ⅱ-4. 판매 대상 — 탄소 데이터 4층 구조와 이중 보고 대조 부담</b></summary>
 
-### Ⅰ-4.1 4층 구조와 판매 대상
+### Ⅱ-4.1 4층 구조와 판매 대상
 
 <details>
 <summary>표 원문 보기</summary>
@@ -265,7 +381,7 @@
 
 <p align="center"><sub>계산이 아닌, 계산에 투입된 숫자의 출처를 증명하는 근거 관리 층에 공급자가 없음</sub></p>
 
-### Ⅰ-4.2 제조사에 근거 관리 층이 필요한 사유 — 이중 보고 대조 부담
+### Ⅱ-4.2 제조사에 근거 관리 층이 필요한 사유 — 이중 보고 대조 부담
 
 - 정부에 제출하는 배출량: 사업장 단위 총량이며 제3자 검증을 받음 (배출권거래제 할당대상업체 명세서·온실가스 목표관리업체 명세서)
 - EU CBAM에 제출하는 배출량: 제품 1톤당 내재 배출량임
@@ -278,9 +394,9 @@
 </details>
 
 <details>
-<summary><b>Ⅰ-5. 두 트랙의 연결 — 은행의 탄소 데이터 요구</b></summary>
+<summary><b>Ⅱ-5. 두 트랙의 연결 — 은행의 탄소 데이터 요구</b></summary>
 
-### Ⅰ-5.1 제조사 배출량의 금융배출량 입력
+### Ⅱ-5.1 제조사 배출량의 금융배출량 입력
 
 - 금융배출량 = 대출 비율(대출 잔액 ÷ 대출 기업 가치) × 대출 기업 배출량 (PCAF 산식)
 - 따라서 제조사의 사업장 배출량은 그 제조사에 대출한 금융회사의 금융배출량 입력값이 됨
@@ -288,7 +404,7 @@
 
 ![CBAM 대상 제조사와 대출 금융회사의 거래 연결망](figures/fin_fig6_mfg_network.png)
 
-### Ⅰ-5.2 제조사와 은행 사이의 탄소 데이터 요구 경로
+### Ⅱ-5.2 제조사와 은행 사이의 탄소 데이터 요구 경로
 
 - 요구 경로 8개: 시행 3 · 예정·정부 최종안 3 · 검토·미정 2
 - 제조사는 같은 탄소 데이터를 EU 수입자(CBAM 신고)·정부(배출량 명세서)·ESG 공시·원청 고객사·은행(대출 심사) 5곳에 제출함
@@ -298,9 +414,9 @@
 
 <p align="center"><sub>제조사의 탄소 숫자는 은행 금융배출량의 입력값이 되며, 요구 경로는 8개로 확대됨</sub></p>
 
-### Ⅰ-5.3 가설 — 은행의 검증 가능한 배출 데이터 요구
+### Ⅱ-5.3 가설 — 은행의 검증 가능한 배출 데이터 요구
 
-<p align="center"><img src="figures/presentation/tables/i5_3_hyp_bank_demand.png" width="100%" alt="Ⅰ-5.3 가설 — 은행의 검증 가능한 배출 데이터 요구"></p>
+<p align="center"><img src="figures/presentation/tables/ii5_3_hyp_bank_demand.png" width="100%" alt="Ⅱ-5.3 가설 — 은행의 검증 가능한 배출 데이터 요구"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -321,18 +437,18 @@
 
 ---
 
-## 🔍 Ⅱ 선별 — 누구에게, 언제 가는가
+## 🔍 Ⅲ 선별 — 누구에게, 언제 가는가
 
-<p align="center"><img src="figures/presentation/part2_selection.png" width="100%" alt="Ⅱ 선별"></p>
+<p align="center"><img src="figures/presentation/part3_selection.png" width="100%" alt="Ⅲ 선별"></p>
 
-- Ⅰ부는 '탄소 데이터 근거 관리 층이 비어 있다'는 판단을 맥락과 공개 자료로 제시함
-- Ⅱ부는 이 판단을 제조사 94곳과 금융회사 278곳 전체에 적용해 실제 공백 여부를 확인하고, 공백이 확인된 기업 중 접촉 대상과 접촉 연도를 결정함
+- Ⅱ부는 '탄소 데이터 근거 관리 층이 비어 있다'는 판단을 맥락과 공개 자료로 제시함
+- Ⅲ부는 이 판단을 제조사 94곳과 금융회사 278곳 전체에 적용해 실제 공백 여부를 확인하고, 공백이 확인된 기업 중 접촉 대상과 접촉 연도를 결정함
 - 각 가설은 결과 확인 전에 판정 기준을 확정했으며, 결과에 따라 기준을 변경하지 않음
 
 <details>
-<summary><b>Ⅱ-1. 제조 트랙 — CBAM 1차 업종 제조사</b></summary>
+<summary><b>Ⅲ-1. 제조 트랙 — CBAM 1차 업종 제조사</b></summary>
 
-### Ⅱ-1.1 명단 확정
+### Ⅲ-1.1 명단 확정
 
 - CBAM 1차 업종 후보 132곳 → 규모·신원 확인 96곳 → CBAM 품목 재확인 95곳 → 합병·생산 중단 등 변동 반영 후 채점 대상 94곳 (중견 74 · 대기업군 20)
 - 중소기업 제외 사유: 예산 규모가 IBM 직접 판매 규모에 부합하지 않음
@@ -340,9 +456,9 @@
 
 ![제조 명단 확정 및 우선 계정 선정 단계](figures/presentation/06_mfg_funnel.png)
 
-### Ⅱ-1.2 가설 — 제조사의 탄소 데이터 근거 관리 층 공백
+### Ⅲ-1.2 가설 — 제조사의 탄소 데이터 근거 관리 층 공백
 
-<p align="center"><img src="figures/presentation/tables/ii1_2_hyp_mfg_gap.png" width="100%" alt="Ⅱ-1.2 가설 — 제조사의 탄소 데이터 근거 관리 층 공백"></p>
+<p align="center"><img src="figures/presentation/tables/iii1_2_hyp_mfg_gap.png" width="100%" alt="Ⅲ-1.2 가설 — 제조사의 탄소 데이터 근거 관리 층 공백"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -361,9 +477,9 @@
 
 <p align="center"><sub>제조사 94곳 중 92곳은 탄소 데이터 근거 관리 층 도입이 공개 자료로 확인되지 않음</sub></p>
 
-### Ⅱ-1.3 가설 — 구매 필요성·구매 여력·진입 여지를 동시에 갖춘 제조사의 존재
+### Ⅲ-1.3 가설 — 구매 필요성·구매 여력·진입 여지를 동시에 갖춘 제조사의 존재
 
-<p align="center"><img src="figures/presentation/tables/ii1_3_hyp_mfg_triple.png" width="100%" alt="Ⅱ-1.3 가설 — 구매 필요성·구매 여력·진입 여지를 동시에 갖춘 제조사의 존재"></p>
+<p align="center"><img src="figures/presentation/tables/iii1_3_hyp_mfg_triple.png" width="100%" alt="Ⅲ-1.3 가설 — 구매 필요성·구매 여력·진입 여지를 동시에 갖춘 제조사의 존재"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -379,9 +495,9 @@
 
 </details>
 
-### Ⅱ-1.4 채점 기준 5개 (기준별 0·1·2점, 만점 10점)
+### Ⅲ-1.4 채점 기준 5개 (기준별 0·1·2점, 만점 10점)
 
-<p align="center"><img src="figures/presentation/tables/ii1_4_mfg_criteria.png" width="100%" alt="Ⅱ-1.4 채점 기준 5개 (기준별 0·1·2점, 만점 10점)"></p>
+<p align="center"><img src="figures/presentation/tables/iii1_4_mfg_criteria.png" width="100%" alt="Ⅲ-1.4 채점 기준 5개 (기준별 0·1·2점, 만점 10점)"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -398,7 +514,7 @@
 
 ![제조 94곳의 기준별 점수 분포](figures/presentation/07_mfg_criteria.png)
 
-### Ⅱ-1.5 우선 계정 선정
+### Ⅲ-1.5 우선 계정 선정
 
 - 선정 기준: 5개 기준 합계 8점 이상 → 17곳 (중견 10 · 대기업군 7)
 - 7점 구간(18곳)은 단일 집단이므로 분할 시 동일 점수 간 선정 여부가 갈리게 되어 8점 이상으로 확정함
@@ -414,15 +530,15 @@
 
 <p align="center"><sub>회색 칸이 각 회사의 약점이며, 다섯 기준 모두 2점인 KG스틸이 1위임</sub></p>
 
-### Ⅱ-1.6 접촉 시기
+### Ⅲ-1.6 접촉 시기
 
 - EU 노출 확인·신규 계정 → 2026년 하반기 8곳 (+ 접촉 보류 2곳): KG스틸 · 포스코 · 현대제철 · 태웅 · 현대비앤지스틸 · TCC스틸 · SK오션플랜트 · 세아베스틸
 - 그 외 계정 → 2027년 7곳: SIMPAC · 고려제강 · 세아제강 · 남해화학 · 동국산업 · 대한제강 · 한일시멘트
 - 근거: 2027-02-01 인증서 판매와 2027-09-30 첫 연례 신고 이전에 EU 수입자의 실측 데이터 요청이 발생하며, 기본값 할증이 해마다 확대됨
 
-### Ⅱ-1.7 판매 제품의 구매 구조 — 중견 제조사의 구매 가능 여부
+### Ⅲ-1.7 판매 제품의 구매 구조 — 중견 제조사의 구매 가능 여부
 
-<p align="center"><img src="figures/presentation/tables/ii1_7_purchase.png" width="100%" alt="Ⅱ-1.7 판매 제품의 구매 구조 — 중견 제조사의 구매 가능 여부"></p>
+<p align="center"><img src="figures/presentation/tables/iii1_7_purchase.png" width="100%" alt="Ⅲ-1.7 판매 제품의 구매 구조 — 중견 제조사의 구매 가능 여부"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -441,11 +557,11 @@
 </details>
 
 <details>
-<summary><b>Ⅱ-2. 금융 트랙 — 금융회사</b></summary>
+<summary><b>Ⅲ-2. 금융 트랙 — 금융회사</b></summary>
 
-### Ⅱ-2.1 제조 트랙의 CBAM에 대응하는 금융 쪽 규제
+### Ⅲ-2.1 제조 트랙의 CBAM에 대응하는 금융 쪽 규제
 
-<p align="center"><img src="figures/presentation/tables/ii2_1_fin_regulation.png" width="100%" alt="Ⅱ-2.1 제조 트랙의 CBAM에 대응하는 금융 쪽 규제"></p>
+<p align="center"><img src="figures/presentation/tables/iii2_1_fin_regulation.png" width="100%" alt="Ⅲ-2.1 제조 트랙의 CBAM에 대응하는 금융 쪽 규제"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -461,9 +577,9 @@
 
 </details>
 
-### Ⅱ-2.2 가설 — 금융회사의 대출 기업 배출량 근거 관리 공백
+### Ⅲ-2.2 가설 — 금융회사의 대출 기업 배출량 근거 관리 공백
 
-<p align="center"><img src="figures/presentation/tables/ii2_2_hyp_fin_gap.png" width="100%" alt="Ⅱ-2.2 가설 — 금융회사의 대출 기업 배출량 근거 관리 공백"></p>
+<p align="center"><img src="figures/presentation/tables/iii2_2_hyp_fin_gap.png" width="100%" alt="Ⅲ-2.2 가설 — 금융회사의 대출 기업 배출량 근거 관리 공백"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -482,11 +598,11 @@
 
 <p align="center"><sub>금융회사 278곳 중 267곳은 대출 기업 배출량 데이터가 부족함</sub></p>
 
-### Ⅱ-2.3 대상과 채점 기준 4개 (기준별 0·1·2점, 만점 8점)
+### Ⅲ-2.3 대상과 채점 기준 4개 (기준별 0·1·2점, 만점 8점)
 
 - 대상: 금융회사 278곳 (은행 18 · 금융지주 10 · 공공 5 · 카드·캐피탈 41 · 증권 31 · 생명보험 20 · 손해보험 15 · 저축은행 28 · 자산운용·신탁 75 · 기타 35)
 
-<p align="center"><img src="figures/presentation/tables/ii2_3_fin_criteria.png" width="100%" alt="Ⅱ-2.3 대상과 채점 기준 4개 (기준별 0·1·2점, 만점 8점)"></p>
+<p align="center"><img src="figures/presentation/tables/iii2_3_fin_criteria.png" width="100%" alt="Ⅲ-2.3 대상과 채점 기준 4개 (기준별 0·1·2점, 만점 8점)"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -500,12 +616,12 @@
 
 </details>
 
-- Ⅰ-1 질문과의 연결: '아직 체계를 갖추지 못한 금융사'를 공개 자료로 찾는 기준이 금융배출량 공시 공백임 — 공시가 없거나 범위·품질이 낮을수록 우선함
+- Ⅱ-1 질문과의 연결: '아직 체계를 갖추지 못한 금융사'를 공개 자료로 찾는 기준이 금융배출량 공시 공백임 — 공시가 없거나 범위·품질이 낮을수록 우선함
 - 불리한 근거: 신한·기업은행·수출입은행처럼 자체 산정 체계를 갖춘 곳도 있어, 공시 공백이 곧 '자체 체계 없음'을 의미하지는 않음
 
 ![금융회사 278곳의 기준별 점수 분포](figures/presentation/11_fin_criteria.png)
 
-### Ⅱ-2.4 우선 계정 선정
+### Ⅲ-2.4 우선 계정 선정
 
 - 선정 기준: 4개 기준 합계 5점 이상 → 37곳 (보고 단위 23개)
 - 분포상 뚜렷한 단절이 없어 제조 트랙과 동일하게 점수 구간 경계로 선정함 (6점 이상은 6곳으로 과소, 4점 이상은 35%로 과다)
@@ -518,7 +634,7 @@
 
 ![업권별 우선 계정 선정 비율](figures/presentation/15_fin_sector_rate.png)
 
-<p align="center"><img src="figures/presentation/tables/ii2_4_fin_units.png" width="100%" alt="Ⅱ-2.4 우선 계정 선정"></p>
+<p align="center"><img src="figures/presentation/tables/iii2_4_fin_units.png" width="100%" alt="Ⅲ-2.4 우선 계정 선정"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -535,12 +651,12 @@
 
 </details>
 
-### Ⅱ-2.5 접촉 시기
+### Ⅲ-2.5 접촉 시기
 
 - 2029년 36곳 (보고 단위 22개) · 2030년 1곳 (제주은행)
 - 근거: 정부 최종안 기준 금융배출량 공시 시작(자산 10조 원 이상 2031년)의 준비 마감이 2029년 말이며, 제3자 인증이 2030년에 시작됨
 
-### Ⅱ-2.6 금융 트랙 선정 사유 — IBM의 기존 금융 고객 관계
+### Ⅲ-2.6 금융 트랙 선정 사유 — IBM의 기존 금융 고객 관계
 
 - IBM 공식 자료: 세계 50대 은행 중 43곳, 10대 결제회사 중 8곳이 IBM 메인프레임을 핵심 플랫폼으로 사용함 (IBM Institute for Business Value 보고서 인용, 2026-09-03 갱신)
 - 국내 거래: 국민은행 메인프레임 계약 2030년까지 갱신(2024-12) · 메리츠증권 핵심 거래 시스템 IBM 파워11 도입(2026-03) · 하나캐피탈 재해복구 스토리지(2024-04) · 롯데카드 파워10(2023-04)
@@ -551,11 +667,11 @@
 </details>
 
 <details>
-<summary><b>Ⅱ-3. 연도별 진입 로드맵</b></summary>
+<summary><b>Ⅲ-3. 연도별 진입 로드맵</b></summary>
 
-### Ⅱ-3.1 접촉 순서
+### Ⅲ-3.1 접촉 순서
 
-<p align="center"><img src="figures/presentation/tables/ii3_1_contact_order.png" width="100%" alt="Ⅱ-3.1 접촉 순서"></p>
+<p align="center"><img src="figures/presentation/tables/iii3_1_contact_order.png" width="100%" alt="Ⅲ-3.1 접촉 순서"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -579,16 +695,16 @@
 
 ---
 
-## 📌 Ⅲ 결론 — 어디에 무엇을 파는가
+## 📌 Ⅳ 결론 — 어디에 무엇을 파는가
 
-<p align="center"><img src="figures/presentation/part3_conclusion.png" width="100%" alt="Ⅲ 결론"></p>
+<p align="center"><img src="figures/presentation/part4_conclusion.png" width="100%" alt="Ⅳ 결론"></p>
 
 <details>
-<summary><b>Ⅲ-1. 제품 검증 — watsonx.data intelligence의 공백 충족 가능 여부·시연 진행 상황</b></summary>
+<summary><b>Ⅳ-1. 제품 검증 — watsonx.data intelligence의 공백 충족 가능 여부·시연 진행 상황</b></summary>
 
-### Ⅲ-1.1 가설 — 판매 제품의 출처·계보 공백 충족
+### Ⅳ-1.1 가설 — 판매 제품의 출처·계보 공백 충족
 
-<p align="center"><img src="figures/presentation/tables/iii1_1_hyp_product.png" width="100%" alt="Ⅲ-1.1 가설 — 판매 제품의 출처·계보 공백 충족"></p>
+<p align="center"><img src="figures/presentation/tables/iv1_1_hyp_product.png" width="100%" alt="Ⅳ-1.1 가설 — 판매 제품의 출처·계보 공백 충족"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -600,18 +716,18 @@
 | 판정 기준 | 채택: 주요 구간의 자동 추적이 확인됨 · 부분 채택: SQL·ETL 구간만 추적됨 · 기각: 주요 구간 추적 불가 |
 | 결과 | **부분 채택 (IBM 공식 문서 기준)** — 데이터베이스·ETL·리포팅·모델링 도구와 Java·C# 코드는 자동 추적함. Python은 주석을 단 스크립트만 추적하며 엑셀은 제품 구성에 따라 다름 |
 | 결론 적용 조건 | SQL·ETL 중심 흐름은 자동 추적 가능함. 엑셀·Python 중심 산정(중견 제조사 CBAM 산정이 해당될 수 있음)은 주석·OpenLineage 연결로 보완해야 함 |
-| 불리한 근거 | 실제 형태 데이터 적용 검증 전 (시연 진행 중 — Ⅲ-1.3) · Databricks Unity Catalog는 추가 비용 없이 계보를 포함하고 Snowflake Horizon은 기본 내장됨 → 해당 플랫폼 중심 고객에서는 비교 열위임 |
+| 불리한 근거 | 실제 형태 데이터 적용 검증 전 (시연 진행 중 — Ⅳ-1.3) · Databricks Unity Catalog는 추가 비용 없이 계보를 포함하고 Snowflake Horizon은 기본 내장됨 → 해당 플랫폼 중심 고객에서는 비교 열위임 |
 
 </details>
 
-### Ⅲ-1.2 가격
+### Ⅳ-1.2 가격
 
-- Essentials 연간 요금(약 4,400만 원)은 우선·후보 중견 제조사 25곳의 연간 IT 투자액 중앙값의 1.2%임 (Ⅱ-1.7 참조)
+- Essentials 연간 요금(약 4,400만 원)은 우선·후보 중견 제조사 25곳의 연간 IT 투자액 중앙값의 1.2%임 (Ⅲ-1.7 참조)
 - 판매 관건은 가격 부담이 아닌 'IT 예산 1\~3%를 탄소 데이터 근거 관리에 배정할 사유'의 입증임
 
-### Ⅲ-1.3 시연 진행 상황 (진행 문서 08\~10, 2026-10-14 기준)
+### Ⅳ-1.3 시연 진행 상황 (진행 문서 08\~10, 2026-10-14 기준)
 
-<p align="center"><img src="figures/presentation/tables/iii1_3_demo_status.png" width="100%" alt="Ⅲ-1.3 시연 진행 상황 (진행 문서 08\~10, 2026-10-14 기준)"></p>
+<p align="center"><img src="figures/presentation/tables/iv1_3_demo_status.png" width="100%" alt="Ⅳ-1.3 시연 진행 상황 (진행 문서 08\~10, 2026-10-14 기준)"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -620,7 +736,7 @@
 |---|---|
 | 목적 | 판매 제품의 출처·계보 공백 충족 가설을 공식 문서가 아닌 실제 형태의 데이터로 재판정함 · 고객별 판매 장면을 구성함 |
 | 판정 기준 | 시험 전에 고정함(2026-10-07) — 결과에 따라 바꾸지 않음 |
-| 대상 | 제조 5곳 · 금융 3곳 · 제조사–은행 연결 3쌍 (Ⅲ-2) |
+| 대상 | 제조 5곳 · 금융 3곳 · 제조사–은행 연결 3쌍 (Ⅳ-2) |
 | 데이터 원칙 | 회사별 연간 공개 실측값(정부 명세서 배출량·에너지, 사업보고서 생산실적, 등록공장)은 고정하고, 공개되지 않는 월별·공장별 값만 공식 통계의 모양으로 나눠 합성함. 합성값의 합계는 실측값과 일치해야 함 |
 | 표시 원칙 | 실명을 사용하고 모든 행에 자료 성격(실측·합성·외부 추정)을 표시함. 원재료 매입 수량처럼 맞출 실측값이 없는 값은 '앵커 밖 합성'으로 따로 표시함 — 실제 도입 시 회사 구매 기록으로 대체되는 자리임 |
 | 시연 장면 | 제조 — 배출량 숫자의 출처·실측 여부·변경 이력 / 금융 — 차주별 배출량의 출처와 품질 등급 / 연결 — 제조사 실측 자료 제공 시 은행 장부 품질 등급의 변화 |
@@ -632,29 +748,29 @@
 </details>
 
 <details>
-<summary><b>Ⅲ-2. 어디에 무엇을 — 10개 기업별 IBM 제품</b></summary>
+<summary><b>Ⅳ-2. 어디에 무엇을 — 10개 기업별 IBM 제품</b></summary>
 
-### Ⅲ-2.1 연결 논리 — 고객 과제를 숫자로 찾고, 그 숫자로 접촉 순서를 정함
+### Ⅳ-2.1 연결 논리 — 고객 과제를 숫자로 찾고, 그 숫자로 접촉 순서를 정함
 
-<p align="center"><img src="figures/presentation/tables/iii2_1_logic_flow.png" width="100%" alt="Ⅲ-2.1 연결 논리 — 고객 과제를 숫자로 찾고, 그 숫자로 접촉 순서를 정함"></p>
+<p align="center"><img src="figures/presentation/tables/iv2_1_logic_flow.png" width="100%" alt="Ⅳ-2.1 연결 논리 — 고객 과제를 숫자로 찾고, 그 숫자로 접촉 순서를 정함"></p>
 
 <details>
 <summary>표 원문 보기</summary>
 
 | 단계 | 질문 | 숫자 | 위치 |
 |---|---|---|---|
-| ① 고객 과제 발견 — 제조 | 제조사의 과제는 무엇인가 | 같은 배출량을 정부(사업장 총량)와 EU(제품 1톤당)에 다른 단위로 제출함 · 탄소 데이터 근거 관리 층 도입 미확인 94곳 중 92곳 · 실측 미제출 시 기본값 할증 10%(2026년) → 30%(2028년) · 원재료 원산지 증빙이 없으면 원재료 배출이 약 3.6배로 계산됨 (시연 제조 5곳 합계 2,097만 t ↔ 한국산 증빙 시 575만 t, 시연 설계 계산값) | Ⅰ-3 · Ⅰ-4 · Ⅱ-1 · Ⅲ-2 |
-| ① 고객 과제 발견 — 금융 | 금융회사의 과제는 무엇인가 | 대출 기업 배출량 공시 공백 278곳 중 267곳 · 2031년 금융배출량 공시 시작, 초기 3년 이후 추정 정보 면책은 합리적 근거 기록이 조건 · 고배출 제조 차주 다수는 정부 명세서를 보유함 (시연 은행 장부 59곳 중 46곳 · 42곳 중 32곳 · 28곳 중 23곳) | Ⅰ-3 · Ⅱ-2 · Ⅲ-2 |
-| ② 접촉 순서 결정 | 누구부터 가는가 | 제조 5개 기준 합계 8점 이상 17곳, 금융 4개 기준 합계 5점 이상 37곳 → 2026년 하반기 제조 8곳 → 2027년 제조 7곳 → 2029\~2030년 금융 37곳 | Ⅱ-1 · Ⅱ-2 · Ⅱ-3 |
-| ③ 제품 연결 | 어디에 무엇을 파는가 | 10개 기업별 데이터 특수성 → IBM 제품 (Ⅲ-2.3·Ⅲ-2.4) | Ⅲ-2 |
+| ① 고객 과제 발견 — 제조 | 제조사의 과제는 무엇인가 | 같은 배출량을 정부(사업장 총량)와 EU(제품 1톤당)에 다른 단위로 제출함 · 탄소 데이터 근거 관리 층 도입 미확인 94곳 중 92곳 · 실측 미제출 시 기본값 할증 10%(2026년) → 30%(2028년) · 원재료 원산지 증빙이 없으면 원재료 배출이 약 3.6배로 계산됨 (시연 제조 5곳 합계 2,097만 t ↔ 한국산 증빙 시 575만 t, 시연 설계 계산값) | Ⅱ-3 · Ⅱ-4 · Ⅲ-1 · Ⅳ-2 |
+| ① 고객 과제 발견 — 금융 | 금융회사의 과제는 무엇인가 | 대출 기업 배출량 공시 공백 278곳 중 267곳 · 2031년 금융배출량 공시 시작, 초기 3년 이후 추정 정보 면책은 합리적 근거 기록이 조건 · 고배출 제조 차주 다수는 정부 명세서를 보유함 (시연 은행 장부 59곳 중 46곳 · 42곳 중 32곳 · 28곳 중 23곳) | Ⅱ-3 · Ⅲ-2 · Ⅳ-2 |
+| ② 접촉 순서 결정 | 누구부터 가는가 | 제조 5개 기준 합계 8점 이상 17곳, 금융 4개 기준 합계 5점 이상 37곳 → 2026년 하반기 제조 8곳 → 2027년 제조 7곳 → 2029\~2030년 금융 37곳 | Ⅲ-1 · Ⅲ-2 · Ⅲ-3 |
+| ③ 제품 연결 | 어디에 무엇을 파는가 | 10개 기업별 데이터 특수성 → IBM 제품 (Ⅳ-2.3·Ⅳ-2.4) | Ⅳ-2 |
 
 </details>
 
 - 결론의 무게중심은 데이터 근거임 — 각 판단은 공시·고시·보고서의 숫자에서 출발하며, 원문까지 추적할 수 있도록 근거 문서를 함께 기재함
 
-### Ⅲ-2.2 10개 기업의 구성
+### Ⅳ-2.2 10개 기업의 구성
 
-<p align="center"><img src="figures/presentation/tables/iii2_2_composition.png" width="100%" alt="Ⅲ-2.2 10개 기업의 구성"></p>
+<p align="center"><img src="figures/presentation/tables/iv2_2_composition.png" width="100%" alt="Ⅳ-2.2 10개 기업의 구성"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -669,13 +785,13 @@
 </details>
 
 - 연결 3쌍(시연): KG스틸 → 하나은행 · 한일시멘트 → 한국산업은행 · 삼아알미늄 → 한국수출입은행 — 제조사의 실측 배출량이 대출 은행 금융배출량의 입력값이 되는 관계임
-- 숫자 기준 차이: Ⅰ-5.1의 산업은행 거래 58곳은 진행 문서 04 기준이며, Ⅲ-2의 59곳은 시연 단계에서 원문 대조로 1곳을 보정한 값임. 수출입은행도 같은 방식으로 28곳 → 29곳이 됨
+- 숫자 기준 차이: Ⅱ-5.1의 산업은행 거래 58곳은 진행 문서 04 기준이며, Ⅳ-2의 59곳은 시연 단계에서 원문 대조로 1곳을 보정한 값임. 수출입은행도 같은 방식으로 28곳 → 29곳이 됨
 
-### Ⅲ-2.3 10개 기업별 판매 제품 — 요약
+### Ⅳ-2.3 10개 기업별 판매 제품 — 요약
 
 - 순서: 접촉 연도 → 트랙 안 순위
 
-<p align="center"><img src="figures/presentation/tables/iii2_3_summary.png" width="100%" alt="Ⅲ-2.3 10개 기업별 판매 제품 — 요약"></p>
+<p align="center"><img src="figures/presentation/tables/iv2_3_summary.png" width="100%" alt="Ⅳ-2.3 10개 기업별 판매 제품 — 요약"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -699,11 +815,11 @@
 - 데이터 상품: watsonx.data intelligence 안에서 정리한 데이터 묶음을 이용자가 구독해 받아 가는 기능 — 시연 연결 장면에서 제조사 기록을 대출 은행에 전달하는 데 사용함 (Essentials 요금제 기준 데이터 상품 구독 월 100건)
 - 보조 제품(Envizi·watsonx.data·Cognos Analytics)은 장면 구성용이며 판매 제품의 공백 충족 판정 대상이 아님
 
-### Ⅲ-2.4 기업별 근거
+### Ⅳ-2.4 기업별 근거
 
 #### 1. KG스틸 — 원재료 원산지 증빙이 신고값을 좌우하는 냉연·도금 강판 회사
 
-<p align="center"><img src="figures/presentation/tables/iii2_4_card_01.png" width="100%" alt="KG스틸 — 원재료 원산지 증빙이 신고값을 좌우하는 냉연·도금 강판 회사"></p>
+<p align="center"><img src="figures/presentation/tables/iv2_4_card_01.png" width="100%" alt="KG스틸 — 원재료 원산지 증빙이 신고값을 좌우하는 냉연·도금 강판 회사"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -722,7 +838,7 @@
 
 #### 2. 태웅 — 공장 간 이동 기록이 필요한 자체 제강·단조 회사
 
-<p align="center"><img src="figures/presentation/tables/iii2_4_card_02.png" width="100%" alt="태웅 — 공장 간 이동 기록이 필요한 자체 제강·단조 회사"></p>
+<p align="center"><img src="figures/presentation/tables/iv2_4_card_02.png" width="100%" alt="태웅 — 공장 간 이동 기록이 필요한 자체 제강·단조 회사"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -740,7 +856,7 @@
 
 #### 3. 현대비앤지스틸 — 공장마다 CBAM 범위가 갈리는 스테인리스 판 회사
 
-<p align="center"><img src="figures/presentation/tables/iii2_4_card_03.png" width="100%" alt="현대비앤지스틸 — 공장마다 CBAM 범위가 갈리는 스테인리스 판 회사"></p>
+<p align="center"><img src="figures/presentation/tables/iv2_4_card_03.png" width="100%" alt="현대비앤지스틸 — 공장마다 CBAM 범위가 갈리는 스테인리스 판 회사"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -758,7 +874,7 @@
 
 #### 4. TCC스틸 (추가) — 단일 공급사 원판에 도금하는 공장 1곳 회사
 
-<p align="center"><img src="figures/presentation/tables/iii2_4_card_04.png" width="100%" alt="TCC스틸 (추가) — 단일 공급사 원판에 도금하는 공장 1곳 회사"></p>
+<p align="center"><img src="figures/presentation/tables/iv2_4_card_04.png" width="100%" alt="TCC스틸 (추가) — 단일 공급사 원판에 도금하는 공장 1곳 회사"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -776,7 +892,7 @@
 
 #### 5. 한일시멘트 — 신고 범위 구분이 필요한 최대 배출 시멘트 회사
 
-<p align="center"><img src="figures/presentation/tables/iii2_4_card_05.png" width="100%" alt="한일시멘트 — 신고 범위 구분이 필요한 최대 배출 시멘트 회사"></p>
+<p align="center"><img src="figures/presentation/tables/iv2_4_card_05.png" width="100%" alt="한일시멘트 — 신고 범위 구분이 필요한 최대 배출 시멘트 회사"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -795,7 +911,7 @@
 
 #### 6. 삼아알미늄 — 산정 앱 결과와 원산지 증빙을 함께 관리해야 하는 알루미늄박 회사
 
-<p align="center"><img src="figures/presentation/tables/iii2_4_card_06.png" width="100%" alt="삼아알미늄 — 산정 앱 결과와 원산지 증빙을 함께 관리해야 하는 알루미늄박 회사"></p>
+<p align="center"><img src="figures/presentation/tables/iv2_4_card_06.png" width="100%" alt="삼아알미늄 — 산정 앱 결과와 원산지 증빙을 함께 관리해야 하는 알루미늄박 회사"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -814,7 +930,7 @@
 
 #### 7. 중소기업은행 (추가) — 소액·중견 CBAM 차주가 많은 상장 국책은행
 
-<p align="center"><img src="figures/presentation/tables/iii2_4_card_07.png" width="100%" alt="중소기업은행 (추가) — 소액·중견 CBAM 차주가 많은 상장 국책은행"></p>
+<p align="center"><img src="figures/presentation/tables/iv2_4_card_07.png" width="100%" alt="중소기업은행 (추가) — 소액·중견 CBAM 차주가 많은 상장 국책은행"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -832,7 +948,7 @@
 
 #### 8. 한국산업은행 — CBAM 제조사 최다 대출, 장부를 처음 구축하는 국책은행
 
-<p align="center"><img src="figures/presentation/tables/iii2_4_card_08.png" width="100%" alt="한국산업은행 — CBAM 제조사 최다 대출, 장부를 처음 구축하는 국책은행"></p>
+<p align="center"><img src="figures/presentation/tables/iv2_4_card_08.png" width="100%" alt="한국산업은행 — CBAM 제조사 최다 대출, 장부를 처음 구축하는 국책은행"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -842,7 +958,7 @@
 | 보유 데이터 | 시연 장부 59곳(EU 노출 확인 13곳) — CBAM 1차 제조사 94곳 중 최다 / 원문 잔액 합 102,155.4억 원 / 정부 명세서 보유 46곳(잔액 비중 94.3%) / 품질 등급 판정 1등급 47 · 2등급 1 · 4등급 11, 대출금 가중 평균 1.13 (차주 재무 수집 전 판정값, 1등급이 최상) |
 | 특수성 | 금융배출량 미산정 — 공표할 수치가 없다는 입장(2026-09 국회 자료 보도) → 장부를 처음 구축함 · 잔액의 74.6%가 다른 은행 몫이 섞인 '○○ 외·등' 묶음 줄임 · 공공기관이라 법정 공시가 아닌 알리오 통합공시 경로임 |
 | 필요한 기능 | 정부 명세서·신용정보원 추정치·차주 제출 자료의 출처 구분 · 처음부터 원천을 쌓을 저장소 |
-| IBM 제품 | watsonx.data intelligence + watsonx.data(장부 원천 보관) · 확장 후보: 수출서류 판독 모델 층(watsonx.ai·Granite Docling) — 판독 AI 도입 공개 자료 없음(Ⅰ-1.4) |
+| IBM 제품 | watsonx.data intelligence + watsonx.data(장부 원천 보관) · 확장 후보: 수출서류 판독 모델 층(watsonx.ai·Granite Docling) — 판독 AI 도입 공개 자료 없음(Ⅱ-1.2) |
 | 연결 제조사 | 한일시멘트 2,766.2억 원 |
 | 불리한 근거 | IBM 거래 이력 공개 자료 없음 — 신규 관계 개척이 필요함 · 산정을 준비 중인 자체 시스템이 생기면 경쟁함 · 판독 AI 공개 자료 부재는 미도입을 의미하지 않음 |
 | 근거 문서 | 진행 문서 08 4-1·4-3, 10 4-1-3·4-2-3·4-3-1·4-3-2, data/manual/fin_s2_evidence.csv |
@@ -851,7 +967,7 @@
 
 #### 9. 한국수출입은행 — 공시값 없이 자체 시스템을 구축 중인 국책은행
 
-<p align="center"><img src="figures/presentation/tables/iii2_4_card_09.png" width="100%" alt="한국수출입은행 — 공시값 없이 자체 시스템을 구축 중인 국책은행"></p>
+<p align="center"><img src="figures/presentation/tables/iv2_4_card_09.png" width="100%" alt="한국수출입은행 — 공시값 없이 자체 시스템을 구축 중인 국책은행"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -870,7 +986,7 @@
 
 #### 10. 하나은행 — 그룹 공시는 있으나 은행 단독 값이 없는 시중은행
 
-<p align="center"><img src="figures/presentation/tables/iii2_4_card_10.png" width="100%" alt="하나은행 — 그룹 공시는 있으나 은행 단독 값이 없는 시중은행"></p>
+<p align="center"><img src="figures/presentation/tables/iv2_4_card_10.png" width="100%" alt="하나은행 — 그룹 공시는 있으나 은행 단독 값이 없는 시중은행"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -887,9 +1003,9 @@
 
 </details>
 
-### Ⅲ-2.5 제품별 정리
+### Ⅳ-2.5 제품별 정리
 
-<p align="center"><img src="figures/presentation/tables/iii2_5_products.png" width="100%" alt="Ⅲ-2.5 제품별 정리"></p>
+<p align="center"><img src="figures/presentation/tables/iv2_5_products.png" width="100%" alt="Ⅳ-2.5 제품별 정리"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -906,7 +1022,7 @@
 
 </details>
 
-### Ⅲ-2.6 결론
+### Ⅳ-2.6 결론
 
 - 10곳 모두에 watsonx.data intelligence를 공통 제품으로 제안함 — 판매 대상인 근거 관리 층의 제품임
 - 기업별 차이는 데이터의 특수성에서 나옴
@@ -916,15 +1032,15 @@
 - 접촉 순서: 2026년 하반기 KG스틸·태웅·현대비앤지스틸·TCC스틸 → 2027년 한일시멘트 → 2029년 중소기업은행·한국산업은행·한국수출입은행·하나은행
 - 두 트랙을 잇는 판매 장면: 제조사가 만든 기록을 데이터 상품으로 대출 은행에 전달함(KG스틸 → 하나은행 등) — 같은 기록이 CBAM 신고·ESG 공시·은행 금융배출량에 함께 쓰임
 
-### Ⅲ-2.7 판매 구조와 셀링포인트
+### Ⅳ-2.7 판매 구조와 셀링포인트
 
 - 판매 구조: 도입 → 확장 2단계 — 제조 2026\~2027년 도입·2028년 이후 확장, 금융 2029년 도입·2030년 이후 확장 (Essentials → Standard·Premium)
 - 셀링포인트: 책임을 대신 지는 도구가 아니라, 책임을 다했음을 증명하는 기록 — 같은 기록을 ESG 공시 면책 요건(2031년 이후)·제3자 인증(2030년 이후)·데이터 사고 시 관리 체계 입증에 사용함
 - 정부 플랫폼과의 관계: 산업통상자원부 공급망 탄소 데이터 스페이스는 연결 대상, 신용정보원 금융배출량 플랫폼은 데이터 출처이며 대체·경쟁 대상이 아님
 
-### Ⅲ-2.8 결론에 붙는 조건
+### Ⅳ-2.8 결론에 붙는 조건
 
-<p align="center"><img src="figures/presentation/tables/iii2_8_conditions.png" width="100%" alt="Ⅲ-2.8 결론에 붙는 조건"></p>
+<p align="center"><img src="figures/presentation/tables/iv2_8_conditions.png" width="100%" alt="Ⅳ-2.8 결론에 붙는 조건"></p>
 
 <details>
 <summary>표 원문 보기</summary>
@@ -934,7 +1050,7 @@
 | CBAM 하류 범위 | 미정 — 3자 협상 중, 2028년 후보는 확정 후 재평가 |
 | ESG 공시 법률 | 미정 — 정부 최종안 확정, 자본시장법 개정안 국회 계류 |
 | 제3자 인증 범위 | 미정 — 2030년 의무화 방침, 범위·수준은 법령 개정 과정에서 확정 |
-| 판매 제품의 공백 충족 가능 여부 | IBM 공식 문서 기준 부분 채택 — 실제 형태 데이터 판정은 시연 진행 중 (Ⅲ-1.3) |
+| 판매 제품의 공백 충족 가능 여부 | IBM 공식 문서 기준 부분 채택 — 실제 형태 데이터 판정은 시연 진행 중 (Ⅳ-1.3) |
 | 은행의 검증 가능한 배출 데이터 요구 | 대체 수단 존재 — 전환금융 실무 모범규준 확정 후 재판정 |
 | 제조사·금융회사의 근거 관리 층 공백 | 공개 자료 범위의 판정 |
 | 추가 2곳(TCC스틸·중소기업은행) | 시연 대상이 아니므로 실제 형태 데이터 검증 없음 — 공개 자료 판정만 적용함 |
@@ -1004,8 +1120,9 @@
 | 5 | 주요 언론·글로벌 조사기관 — 조선·중앙·동아·한경·매경, 글로벌 IB·조사기관 리서치 |
 | 사용 배제 | 위키백과·나무위키·취업 정보 사이트·블로그 |
 
-### E. Ⅰ-1·Ⅱ-1·Ⅱ-2·Ⅲ-2 추가 조사 출처 (확인 2026-10-15)
+### E. Ⅰ·Ⅱ-1·Ⅲ-1·Ⅲ-2·Ⅳ-2 추가 조사 출처 (확인 2026-10-15)
 
+- 문제 정의: [IBM 2025년 4분기 실적 발표 (2026-01-28)](https://newsroom.ibm.com/2026-01-28-IBM-RELEASES-FOURTH-QUARTER-RESULTS) · [IBM 2025 연차보고서](https://www.sec.gov/Archives/edgar/data/51143/000005114326000027/ibmars2025.pdf) · [ICC 은행위원회 기술 자문 브리핑 3호 (2022-06-27)](https://library.iccwbo.org//content//tfb//BRIEFINGS//20220627_TA_Briefing_No3_reducing_discrepancy_rates.pdf) · [UCP 600 원문 (제2조·제14조)](https://eclass-b.uoa.gr/modules/document/file.php/LAW1023/UCP%20600.pdf) · [IBM 2026 CEO Study 발표 (2026-05-04)](https://newsroom.ibm.com/2026-05-04-ibm-study-ceos-are-reshaping-c-suite-roles-for-the-ai-era) · [선행 프로젝트 trade-doc-parsing-model-eval](https://github.com/eugeejo-ui/trade-doc-parsing-model-eval)
 - 판매 정책: [IBM watsonx.ai 소프트웨어 변경 내역](https://www.ibm.com/docs/SSLSRPV_latest/fixlist/watsonxai-fixlist.html) · [IBM Granite](https://www.ibm.com/granite) · [Hugging Face granite-docling-258M](https://huggingface.co/ibm-granite/granite-docling-258M) · [리눅스재단 Docling 기증 (2025-04-29)](https://www.linuxfoundation.org/press/ai-workflows-get-new-open-source-tools-to-advance-document-intelligence-data-quality-and-decentralized-ai-with-ibms-contribution-of-3-projects-to-linux-fou-1745937200621) · [가트너 소형 특화 모델 전망 (2025-04-09)](https://www.gartner.com/en/newsroom/press-releases/2025-04-09-gartner-predicts-by-2027-organizations-will-use-small-task-specific-ai-models-three-times-more-than-general-purpose-large-language-models) · [맥킨지 Open source technology in the age of AI (2025-04-22)](https://www.mckinsey.com/capabilities/quantumblack/our-insights/open-source-technology-in-the-age-of-ai)
 - 망분리: [신&김 뉴스레터 (2026-05-08)](https://shinkim.com/kor/media/newsletter/3267) · [헤럴드경제 (2026-04-19)](https://www.heraldk.com/article/2026041913000050844) · [디지털데일리 (2026-07-15)](https://www.ddaily.co.kr/page/view/2026071517443276094)
 - 은행 판독 AI: [KB Think (2023-06-13)](https://kbthink.com/main/economy/economic-in-depth-analysis/economic-research-report/series5-230613.html) · [조세금융신문 KB AI-OCR 부수업무 (2024-07-24)](https://tfmedia.co.kr/news/article.html?no=166723) · [세계타임즈 하나은행 리딧 (2024-06-24)](https://m.thesegye.com/news/view/1065575925565842) · [헤럴드경제 하나은행 수출서류작성 가이드 (2026-03-25)](https://www.heraldk.com/article/2026032516171238943) · [바이라인네트워크 IBK GenAI (2026-07-29)](https://byline.network/2026/07/0729-2/) · [데일리안 신한은행 클로바 OCR (2020-12-15)](https://m.dailian.co.kr/news/view/946615) · [신한금융 수출환어음 매입 AI 심사 (2025-12-11)](https://shinhangroup.com/kr/archive/press/detail/538) · [뉴데일리 우리은행 AI 에이전트 (2026-06-12)](https://biz.newdaily.co.kr/site/data/html/2026/06/12/2026061200073.html) · [SC그룹·IBM Trade AI Engine (2019-05-22)](https://www.sc.com/EN/press-release/weve-pioneered-trade-ai-engine-with-ibm/) · [Business Wire 씨티·Traydstream (2023-12-04)](https://www.businesswire.com/news/home/20231204508925/en/Citi-Collaborates-With-Traydstream-to-Streamline-Document-Services-for-Faster-and-More-Effective-Client-Solutions) · [MTN 2027년도 시스템적 중요 은행 지정 (2026-07-31)](https://news.mtn.co.kr/news-detail/2026073116305530726)
@@ -1013,7 +1130,7 @@
 - 통계: [산업일보 금감원 AI 실태조사 (2026-01-17)](https://kidd.co.kr/news/244669) · [헤럴드경제 핀테크산업협회 포럼 (2026-06-23)](https://www.heraldk.com/article/2026062318143379488) · [케임브리지 대안금융센터 2026 보고서](https://jbs.cam.ac.uk/faculty-research/centres/alternative-finance/publications/2026-global-ai-in-financial-services-report) · [FSB AI 보고서 (2024-11-14)](https://www.fsb.org/uploads/P14112024.pdf)
 - 판매 제품: [IBM 뉴스룸 단독 판매 (2025-06-04)](https://newsroom.ibm.com/blog-ibm-simplifies-the-enterprise-data-stack-for-gen-ai-era) · [AWS 마켓플레이스 SaaS](https://aws.amazon.com/marketplace/pp/prodview-l3fj6yu5ubsnk) · [AWS 마켓플레이스 설치형](https://aws.amazon.com/marketplace/pp/prodview-4lt7554c34ecs) · [디지털데일리 IBM 국내 총판 (2026-04-06)](https://www.ddaily.co.kr/page/view/2026040611040522713)
 - 금융 규제·IBM 금융 관계: [뉴시스 ESG 공시 정부 최종안 (2026-07-08)](https://mobile.newsis.com/view/NISX20260708_0003700237) · [EBN 기후금융 활성화 TF (2026-09-14)](https://www.ebn.co.kr/news/articleView.html?idxno=1724103) · [IFRS S2 개정 요약 (2025-12)](https://www.ifrs.org/content/dam/ifrs/supporting-implementation/ifrs-s2/s2-targeted-amendments-at-a-glance.pdf) · [IBM Think What is a mainframe? (2026-09-03)](https://www.ibm.com/think/topics/mainframe) · [바이라인네트워크 메리츠증권 파워11 (2026-03-04)](https://byline.network/2026/03/4-419/) · [Mayer Brown CBAM 하류 확대 3자 협상 (2026-10-07)](https://www.mayerbrown.com/en/insights/publications/2026/10/eus-cbam-downstream-extension-and-anti-circumvention-amendments-the-road-to-trilogue)
-- Ⅲ-2 추가 출처: [IB토마토 TCC스틸 원료 수급 (2023-07-20)](https://newstomato.com/ReadNews.aspx?no=1194756) · 기업별 수치는 진행 문서 08·09·10과 레포 data 폴더 파일(각 기업 근거 문서 칸)
+- Ⅳ-2 추가 출처: [IB토마토 TCC스틸 원료 수급 (2023-07-20)](https://newstomato.com/ReadNews.aspx?no=1194756) · 기업별 수치는 진행 문서 08·09·10과 레포 data 폴더 파일(각 기업 근거 문서 칸)
 - 기존 조사의 전체 출처: [REPORT.md 참고 문헌](REPORT.md)
 
 </details>
