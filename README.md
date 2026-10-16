@@ -278,7 +278,7 @@
 
 <p align="center"><sub>판매 제품과 시장은 바뀌었으나, 비어 있는 한 층으로 진입하는 원칙은 유지됨</sub></p>
 
-- IBM의 제조업 관심: 2026년 한국IBM의 제조 대상 행사 3회로 확인됨 (3월 5일 CIO코리아 조찬 · 5월 19일 데이터 리더십 행사 · 6월 16일 산업AX KOREA 'AI Ready Data' — 거버넌스·카탈로그·품질·계보)
+- IBM의 제조업 관심: 2026년 한국IBM의 제조 대상 행사 3회로 확인됨 (3월 5일 CIO코리아 조찬 · 5월 19일 데이터 리더십 행사 · 6월 16일 산업AX KOREA 'AI Ready Data' — 거버넌스·카탈로그·품질·계보) — 발표 내용은 Ⅰ-4.3
 
 ### Ⅰ-4.2 도출 원칙
 
@@ -295,6 +295,11 @@
 - 수출서류: 수출 제조기업이 작성한 서류의 금액·날짜·상호로 은행이 신용장 심사를 함
 - 탄소 배출량: CBAM 대상 제조사가 신고한 배출량이 은행 금융배출량 산정의 입력값이 됨 (Ⅱ-3.1)
   - **쉽게 말해 — CBAM(Carbon Border Adjustment Mechanism, EU 탄소국경조정제도): EU로 수입되는 철강·알루미늄·시멘트·비료·수소·전력의 생산 과정 배출량(내재 배출량)만큼 EU 수입자가 EU 배출권 가격에 연동된 인증서를 구매하게 하는 제도임. 탄소 규제가 약한 국가의 제품이 EU 역내 제품보다 가격 우위를 갖지 않도록 하는 장치이며, 수출 제조사가 제품별 실측 배출량을 제공하지 않으면 할증이 붙은 기본값이 적용됨 (일정은 Ⅱ-1.1)**
+- IBM도 제조와 금융을 함께 봄 — 한국IBM은 2026년 제조 관련 발표에서 데이터 품질·거버넌스·계보를 제조 AI의 전제로 제시함
+  - 데이터 리더십 행사(CIO코리아 주최·IBM 후원, 2026-05-19): 한국IBM 금융·제조 및 유통 사업본부가 "제조·금융처럼 데이터 주권과 규제가 중요한 산업"에서 온프레미스 AI 데이터 플랫폼 수요가 높아진다고 설명함
+  - 제3회 M.AX 전문가 컨퍼런스(산업통상부, 2026-06-05): 한국IBM컨설팅 대표가 제조 현장 데이터의 80% 이상이 다크 데이터로 방치된다고 밝히고, 제조 데이터 확보의 고려사항으로 표준화·품질·거버넌스 등을 제시함
+  - 산업AX KOREA(2026-06-16): 한국IBM이 자율공장의 출발점으로 'AI Ready Data'(품질·거버넌스·데이터 계보·공유 체계)를 제시함 — 판매 제품(watsonx.data intelligence)이 다루는 영역과 같음
+  - 단서: 제조업 사업 확대를 공식 발표한 자료는 아니며, 행사 발표와 사업본부 구성으로 확인한 관심임
 - 고객(은행)은 같고 숫자만 바뀜 → 판매 제품이 판독 모델에서 탄소 데이터 거버넌스(IBM watsonx.data intelligence)로 바뀜
 
 </details>
@@ -1270,6 +1275,7 @@
 
 ### E. 추가 조사 출처 (확인 2026-10-15)
 
+- IBM 제조 관심: [CIO코리아 데이터 리더십 익스체인지 (2026-05-19)](https://www.cio.com/article/4172904/cio%EC%BD%94%EB%A6%AC%EC%95%84%C2%B7ibm-ai-%EC%84%B1%ED%8C%A8-%EC%A2%8C%EC%9A%B0%ED%95%98%EB%8A%94-%EA%B1%B4-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%8B%A4%EC%8B%9C%EA%B0%84%C2%B7.html) · [지디넷코리아 한국IBM컨설팅 M.AX 전문가 컨퍼런스 발표 (2026-06-07)](https://zdnet.co.kr/view/?no=20260607204449) · [헬로티 산업AX KOREA 2026 한국IBM 발표](https://www.hellot.net/news/article.html?no=113204)
 - 문제 정의: [IBM 2025년 4분기 실적 발표 (2026-01-28)](https://newsroom.ibm.com/2026-01-28-IBM-RELEASES-FOURTH-QUARTER-RESULTS) · [IBM 2025 연차보고서](https://www.sec.gov/Archives/edgar/data/51143/000005114326000027/ibmars2025.pdf) · [ICC 은행위원회 기술 자문 브리핑 3호 (2022-06-27)](https://library.iccwbo.org//content//tfb//BRIEFINGS//20220627_TA_Briefing_No3_reducing_discrepancy_rates.pdf) · [UCP 600 원문 (제2조·제5조·제7조·제14조·제16조)](https://eclass-b.uoa.gr/modules/document/file.php/LAW1023/UCP%20600.pdf) · [선행 프로젝트 trade-doc-parsing-model-eval](https://github.com/eugeejo-ui/trade-doc-parsing-model-eval)
 - 판매 정책: [IBM watsonx.ai 소프트웨어 변경 내역](https://www.ibm.com/docs/SSLSRPV_latest/fixlist/watsonxai-fixlist.html) · [IBM Granite](https://www.ibm.com/granite) · [Hugging Face granite-docling-258M](https://huggingface.co/ibm-granite/granite-docling-258M) · [리눅스재단 Docling 기증 (2025-04-29)](https://www.linuxfoundation.org/press/ai-workflows-get-new-open-source-tools-to-advance-document-intelligence-data-quality-and-decentralized-ai-with-ibms-contribution-of-3-projects-to-linux-fou-1745937200621) · [가트너 소형 특화 모델 전망 (2025-04-09)](https://www.gartner.com/en/newsroom/press-releases/2025-04-09-gartner-predicts-by-2027-organizations-will-use-small-task-specific-ai-models-three-times-more-than-general-purpose-large-language-models) · [맥킨지 Open source technology in the age of AI (2025-04-22)](https://www.mckinsey.com/capabilities/quantumblack/our-insights/open-source-technology-in-the-age-of-ai)
 - 망분리: [신&김 뉴스레터 (2026-05-08)](https://shinkim.com/kor/media/newsletter/3267) · [헤럴드경제 (2026-04-19)](https://www.heraldk.com/article/2026041913000050844) · [디지털데일리 (2026-07-15)](https://www.ddaily.co.kr/page/view/2026071517443276094)
