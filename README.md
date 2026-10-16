@@ -110,8 +110,21 @@
 ### Ⅰ-2.2 은행 심사의 부담
 
 - 신용장 서류의 1차 제출 거절률은 세계 기준 65\~80%로 추정됨 (ICC 은행위원회 기술 자문 브리핑 3호, 2022-06 — 추정치이며 최종 지급 거절률이 아닌 1차 제출 기준)
+  - **쉽게 말해 (거절률이 높은 이유) — 양식 실수보다 구조 문제임. 은행은 물건이 아니라 서류만 보고 판단하며(UCP 600 제5조), 서류끼리 또는 서류와 신용장 사이에 데이터가 충돌하면 하자가 됨(제14조 d)**
+    - **서류 한 세트를 여러 회사가 각자 만듦 — 상업송장은 수출기업, 선하증권은 선사, 보험증권은 보험사, 원산지증명서는 상공회의소가 작성해 같은 정보가 서로 다르게 적히기 쉬움**
+    - **일정이 빠듯함 — 선적 기한·신용장 유효기간·서류 제출 기한(별도 기한이 없으면 선적 후 21일)을 모두 지켜야 하며, ICC는 기한 문제를 가장 흔한 하자로 꼽음**
+    - **신용장 자체의 문제 — 문구가 부실하거나 서류로 확인할 수 없는 조건이 들어가고, 개설 신청서 양식이 낡음**
+    - **사람 판단 의존 — 심사가 심사역 한 명의 지식과 판단에 좌우되며, 규칙을 잘못 이해한 부당한 거절도 생김**
+    - **흔한 하자 유형 — 서류 간 데이터 충돌, 서류 누락, 잘못된 상품 설명, 틀린 항구·장소, 선적일보다 늦게 발행된 보험증권**
+    - **2017년 ICC 조사에서 응답자의 58.9%가 거절률 '변화 없음'이라고 답해, 쉽게 줄지 않는 문제임**
 - 은행은 서류 일치 여부 판단에 제출 다음 날부터 최대 5영업일을 사용함 (UCP 600 제14조 b) → 거절 시 수출 제조기업은 서류를 다시 작성해 제출하며, 재심사에 다시 최대 5영업일이 소요됨
+  - **쉽게 말해 (은행이 느끼는 문제) — 하자가 흔한 서류를 사람이 하나하나 대조해 기한 안에 판단해야 하고, 판단을 틀리면 손실을 은행이 짐**
+    - **돈을 먼저 주고 나중에 돌려받는 구조 — 한국 은행은 수출기업의 서류를 매입해(수출환어음 매입) 대금을 먼저 지급하고 해외 개설은행에 청구함. 개설은행은 일치하는 서류에 대해서만 상환하므로(UCP 600 제7조 c), 하자를 놓치고 매입하면 대금을 돌려받지 못할 위험을 은행이 짐**
+    - **기한 안에 판단해야 함 — 개설은행은 제출 후 5영업일 안에 거절 통지를 하지 않으면 하자를 주장할 권리를 잃음 (제16조 d·f)**
+    - **은행이 실제로 투자해 풀고 있는 문제임 — 대형 은행 7곳 중 5곳이 무역서류 판독 AI를 운영·구축 중이며, 투자 대상이 수출환어음 매입 자동화(하나은행 2024-06)·매입 AI 심사(신한은행 2025-12)·신용장 검토서 작성(우리은행 2026-05 착수)임 (Ⅰ-3.2)**
+    - **단서 — 은행 실무자 인터뷰가 아니라 국제 규칙(UCP 600)·ICC 통계·은행의 실제 AI 투자로 확인한 문제임**
 - 일치 여부의 판정 규칙이 UCP 600과 국제표준은행관행으로 명문화되어 있어, 판독 모델의 출력을 평가할 기준이 외부에 존재함
+  - **쉽게 말해 — 흔한 하자 대부분이 서류 사이 금액·날짜·이름 대조 문제이며, 선행 프로젝트(trade-doc)의 판정 규칙 3개(금액 일치·기한 준수·상호 일치)가 이 유형을 겨냥함**
 
 ### Ⅰ-2.3 은행 내부 설치 요구
 
@@ -1257,7 +1270,7 @@
 
 ### E. 추가 조사 출처 (확인 2026-10-15)
 
-- 문제 정의: [IBM 2025년 4분기 실적 발표 (2026-01-28)](https://newsroom.ibm.com/2026-01-28-IBM-RELEASES-FOURTH-QUARTER-RESULTS) · [IBM 2025 연차보고서](https://www.sec.gov/Archives/edgar/data/51143/000005114326000027/ibmars2025.pdf) · [ICC 은행위원회 기술 자문 브리핑 3호 (2022-06-27)](https://library.iccwbo.org//content//tfb//BRIEFINGS//20220627_TA_Briefing_No3_reducing_discrepancy_rates.pdf) · [UCP 600 원문 (제2조·제14조)](https://eclass-b.uoa.gr/modules/document/file.php/LAW1023/UCP%20600.pdf) · [선행 프로젝트 trade-doc-parsing-model-eval](https://github.com/eugeejo-ui/trade-doc-parsing-model-eval)
+- 문제 정의: [IBM 2025년 4분기 실적 발표 (2026-01-28)](https://newsroom.ibm.com/2026-01-28-IBM-RELEASES-FOURTH-QUARTER-RESULTS) · [IBM 2025 연차보고서](https://www.sec.gov/Archives/edgar/data/51143/000005114326000027/ibmars2025.pdf) · [ICC 은행위원회 기술 자문 브리핑 3호 (2022-06-27)](https://library.iccwbo.org//content//tfb//BRIEFINGS//20220627_TA_Briefing_No3_reducing_discrepancy_rates.pdf) · [UCP 600 원문 (제2조·제5조·제7조·제14조·제16조)](https://eclass-b.uoa.gr/modules/document/file.php/LAW1023/UCP%20600.pdf) · [선행 프로젝트 trade-doc-parsing-model-eval](https://github.com/eugeejo-ui/trade-doc-parsing-model-eval)
 - 판매 정책: [IBM watsonx.ai 소프트웨어 변경 내역](https://www.ibm.com/docs/SSLSRPV_latest/fixlist/watsonxai-fixlist.html) · [IBM Granite](https://www.ibm.com/granite) · [Hugging Face granite-docling-258M](https://huggingface.co/ibm-granite/granite-docling-258M) · [리눅스재단 Docling 기증 (2025-04-29)](https://www.linuxfoundation.org/press/ai-workflows-get-new-open-source-tools-to-advance-document-intelligence-data-quality-and-decentralized-ai-with-ibms-contribution-of-3-projects-to-linux-fou-1745937200621) · [가트너 소형 특화 모델 전망 (2025-04-09)](https://www.gartner.com/en/newsroom/press-releases/2025-04-09-gartner-predicts-by-2027-organizations-will-use-small-task-specific-ai-models-three-times-more-than-general-purpose-large-language-models) · [맥킨지 Open source technology in the age of AI (2025-04-22)](https://www.mckinsey.com/capabilities/quantumblack/our-insights/open-source-technology-in-the-age-of-ai)
 - 망분리: [신&김 뉴스레터 (2026-05-08)](https://shinkim.com/kor/media/newsletter/3267) · [헤럴드경제 (2026-04-19)](https://www.heraldk.com/article/2026041913000050844) · [디지털데일리 (2026-07-15)](https://www.ddaily.co.kr/page/view/2026071517443276094)
 - 은행 판독 AI: [KB Think (2023-06-13)](https://kbthink.com/main/economy/economic-in-depth-analysis/economic-research-report/series5-230613.html) · [조세금융신문 KB AI-OCR 부수업무 (2024-07-24)](https://tfmedia.co.kr/news/article.html?no=166723) · [세계타임즈 하나은행 리딧 (2024-06-24)](https://m.thesegye.com/news/view/1065575925565842) · [헤럴드경제 하나은행 수출서류작성 가이드 (2026-03-25)](https://www.heraldk.com/article/2026032516171238943) · [바이라인네트워크 IBK GenAI (2026-07-29)](https://byline.network/2026/07/0729-2/) · [데일리안 신한은행 클로바 OCR (2020-12-15)](https://m.dailian.co.kr/news/view/946615) · [신한금융 수출환어음 매입 AI 심사 (2025-12-11)](https://shinhangroup.com/kr/archive/press/detail/538) · [뉴데일리 우리은행 AI 에이전트 (2026-06-12)](https://biz.newdaily.co.kr/site/data/html/2026/06/12/2026061200073.html) · [SC그룹·IBM Trade AI Engine (2019-05-22)](https://www.sc.com/EN/press-release/weve-pioneered-trade-ai-engine-with-ibm/) · [Business Wire 씨티·Traydstream (2023-12-04)](https://www.businesswire.com/news/home/20231204508925/en/Citi-Collaborates-With-Traydstream-to-Streamline-Document-Services-for-Faster-and-More-Effective-Client-Solutions) · [MTN 2027년도 시스템적 중요 은행 지정 (2026-07-31)](https://news.mtn.co.kr/news-detail/2026073116305530726)
