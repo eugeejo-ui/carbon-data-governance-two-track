@@ -290,6 +290,8 @@
   - 제3회 M.AX 전문가 컨퍼런스(산업통상부, 2026-06-05): 한국IBM컨설팅 대표가 제조 현장 데이터의 80% 이상이 다크 데이터로 방치된다고 밝히고, 제조 데이터 확보의 고려사항으로 표준화·품질·거버넌스 등을 제시함
   - 산업AX KOREA(2026-06-16): 한국IBM이 자율공장의 출발점으로 'AI Ready Data'(품질·거버넌스·데이터 계보·공유 체계)를 제시함 — 판매 제품(watsonx.data intelligence)이 다루는 영역과 같음
   - 단서: 제조업 사업 확대를 공식 발표한 자료는 아니며, 행사 발표와 사업본부 구성으로 확인한 관심임
+- 제조 현장의 순서: 국회 조사(산자중기위 임문영 의원실, 2026-10)는 스마트공장 구축 → 제조데이터 수집·활용 → AI 적용 순서를 제시함. "AI만 얹는다고 AX가 되는 것은 아니다"
+- 바탕 시스템: 정부형 스마트공장 사업이 중소·중견 제조사의 ERP·MES 도입을 과제당 최대 2억 원(정부 50%)까지 지원함 → 데이터 관리 층을 얹을 시스템이 이미 있음
 - 고객(은행)은 같고 숫자만 바뀜 → 판매 제품이 판독 모델에서 탄소 데이터 거버넌스(IBM watsonx.data intelligence)로 바뀜
 
 </details>
@@ -455,7 +457,9 @@
 
 </details>
 
-- 제품 정의: 여러 출처에서 들어온 탄소 수치를 회사 내부에서 출처·변경 이력·판단 근거와 함께 관리하는 층
+- 제품 정의: 고객이 쓰는 ERP·MES·엑셀과 정부 무료 탄소 도구(산정·교환)는 그대로 두고, 그 사이를 오가는 탄소 수치의 출처·변경 이력을 기록하는 층
+- 이렇게 정한 이유: 공정·품목마다 데이터 관리 방식이 달라 한 플랫폼으로 옮기기 어려움. 그래서 기존 시스템을 바꾸지 않고 연결하는 방식이 맞음
+- 단서: 정부 지원 ERP를 쓰는 소규모 기업은 IT 여력이 약해, 주 대상은 자체 ERP를 갖춘 중견·대기업임
 - 두 트랙에 같은 제품을 제안하는 사유: 두 트랙 모두 여러 출처의 탄소 수치를 외부 검증에 제출해야 하며, 수치 자체보다 수치의 근거를 증명해야 함
 - IBM Envizi와의 구분: Envizi는 배출량 산정·공시 보고 제품으로 산정 층에 해당하며, 판매 대상인 근거 관리 층과 구분됨
 
@@ -804,13 +808,17 @@
 
 - 데이터베이스·ETL·리포팅·모델링 도구와 Java·C# 코드는 자동 추적함
 - Python은 주석을 단 스크립트만 추적하며, 엑셀은 제품 구성에 따라 다름
-- 비교 제품: Databricks Unity Catalog는 추가 비용 없이 계보를 포함하고 Snowflake Horizon은 기본 내장됨
+- 비교 제품 (Databricks Unity Catalog)
+  - Databricks: Databricks에서 실행한 작업만 자동으로 계보를 남기며, 외부 시스템은 하나씩 수동 등록해야 함
+  - IBM: ERP·MES의 DB(MS SQL·Oracle·SAP HANA), 엑셀, ETL 도구를 직접 읽어 계보를 남김
+  - 판정: Databricks를 이미 쓰는 고객에서는 열위, 그 밖의 고객에서는 기존 시스템을 바꾸지 않는 점이 우위임
+- 한계: 국내 ERP 전용 연결 기능이 없어 DB를 통해 연결함 · Essentials는 데이터 원천 3개 한도라 ERP·MES·엑셀만 연결해도 한도가 참
 
 **④ 판정 — 부분 채택**
 
 - 주요 구간 중 SQL·ETL 계열만 자동 추적이 확인되므로 부분 채택으로 판정함
 - 결론 적용 조건: SQL·ETL 중심 흐름은 자동 추적 가능함. 엑셀·Python 중심 산정(중견 제조사 CBAM 산정이 해당될 수 있음)은 주석·OpenLineage 연결로 보완해야 함
-- 불리한 근거: 실제 형태 데이터 적용 검증 전임 (시연 진행 중 — Ⅳ-1.2) · Databricks·Snowflake 중심 고객에서는 비교 열위임
+- 불리한 근거: 실제 형태 데이터 적용 검증 전임 (시연 진행 중 — Ⅳ-1.2) · Databricks를 이미 쓰는 고객에서는 비교 열위임
 
 ### Ⅳ-1.2 시연 진행 상황 (진행 문서 08\~10, 2026-10-14 기준)
 
@@ -1249,6 +1257,7 @@
 
 - IBM 제조 관심: [CIO코리아 데이터 리더십 익스체인지 (2026-05-19)](https://www.cio.com/article/4172904/cio%EC%BD%94%EB%A6%AC%EC%95%84%C2%B7ibm-ai-%EC%84%B1%ED%8C%A8-%EC%A2%8C%EC%9A%B0%ED%95%98%EB%8A%94-%EA%B1%B4-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%8B%A4%EC%8B%9C%EA%B0%84%C2%B7.html) · [지디넷코리아 한국IBM컨설팅 M.AX 전문가 컨퍼런스 발표 (2026-06-07)](https://zdnet.co.kr/view/?no=20260607204449) · [헬로티 산업AX KOREA 2026 한국IBM 발표](https://www.hellot.net/news/article.html?no=113204)
 - 요금·구축 비용: [AWS 마켓플레이스 watsonx.data intelligence as a Service](https://aws.amazon.com/marketplace/pp/prodview-l3fj6yu5ubsnk) · [DataTrail watsonx.data intelligence 요금제 정리 (IBM 클라우드 카탈로그 인용, 경쟁사 자료)](https://datatrail.ai/manta-data-lineage-pricing) · [Atlan 데이터 카탈로그 가격 (구축 비용 추정, 공급사 자료)](https://atlan.com/data-catalog-pricing)
+- 기존 시스템 연결·비교: [이데일리 스마트공장 관리 단절 국회 조사 (2026-10-03)](https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01777766645609312) · [에너지타임뉴스 제조 AX 단계 (2026-10-05)](http://www.enertopianews.co.kr/news/articleView.html?idxno=60158) · [Polaris3D 2026 정부형 스마트공장 공고 정리 (공급사 블로그)](https://polaris3d.com/blog/newsroom/2026-government-led-smartfactory/) · [Databricks Unity Catalog 계보](https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-lineage) · [Databricks 외부 계보](https://docs.databricks.com/aws/en/data-governance/unity-catalog/external-lineage) · [IBM Manta Data Lineage 지원 기술](https://www.ibm.com/support/pages/ibm-manta-data-lineage)
 - 문제 정의: [IBM 2025년 4분기 실적 발표 (2026-01-28)](https://newsroom.ibm.com/2026-01-28-IBM-RELEASES-FOURTH-QUARTER-RESULTS) · [IBM 2025 연차보고서](https://www.sec.gov/Archives/edgar/data/51143/000005114326000027/ibmars2025.pdf) · [ICC 은행위원회 기술 자문 브리핑 3호 (2022-06-27)](https://library.iccwbo.org//content//tfb//BRIEFINGS//20220627_TA_Briefing_No3_reducing_discrepancy_rates.pdf) · [UCP 600 원문 (제2조·제7조·제14조)](https://eclass-b.uoa.gr/modules/document/file.php/LAW1023/UCP%20600.pdf) · [선행 프로젝트 trade-doc-parsing-model-eval](https://github.com/eugeejo-ui/trade-doc-parsing-model-eval)
 - 판매 정책: [IBM watsonx.ai 소프트웨어 변경 내역](https://www.ibm.com/docs/SSLSRPV_latest/fixlist/watsonxai-fixlist.html) · [IBM Granite](https://www.ibm.com/granite) · [Hugging Face granite-docling-258M](https://huggingface.co/ibm-granite/granite-docling-258M) · [리눅스재단 Docling 기증 (2025-04-29)](https://www.linuxfoundation.org/press/ai-workflows-get-new-open-source-tools-to-advance-document-intelligence-data-quality-and-decentralized-ai-with-ibms-contribution-of-3-projects-to-linux-fou-1745937200621) · [가트너 소형 특화 모델 전망 (2025-04-09)](https://www.gartner.com/en/newsroom/press-releases/2025-04-09-gartner-predicts-by-2027-organizations-will-use-small-task-specific-ai-models-three-times-more-than-general-purpose-large-language-models) · [맥킨지 Open source technology in the age of AI (2025-04-22)](https://www.mckinsey.com/capabilities/quantumblack/our-insights/open-source-technology-in-the-age-of-ai)
 - 망분리: [신&김 뉴스레터 (2026-05-08)](https://shinkim.com/kor/media/newsletter/3267) · [헤럴드경제 (2026-04-19)](https://www.heraldk.com/article/2026041913000050844) · [디지털데일리 (2026-07-15)](https://www.ddaily.co.kr/page/view/2026071517443276094)
