@@ -139,7 +139,8 @@ ITEM_RULES = [
     ("매출", ("IS", "CIS"), "ifrs-full_Revenue", lambda n: n in REVENUE_NAMES),
     ("제품·상품 매출", ("IS", "CIS"), None, lambda n: "매출" in n and ("제품" in n or "상품" in n)),
     ("차입·사채·리스", ("BS",), None,
-     lambda n: any(k in n for k in ("차입", "사채", "리스부채")) and not any(k in n for k in DEBT_SKIP)),
+     lambda n: any(k in n for k in ("차입", "사채", "리스부채", "유동성장기부채"))  # H1 — 유동성장기부채 더함
+     and not any(k in n for k in DEBT_SKIP)),
 ]
 
 # 4-5-4 다 7번 "찾는 말" (영문 말은 앞뒤 글자가 영문이 아닐 때만)
@@ -685,7 +686,13 @@ def _fin_rows_api(t, fs_div, d, year, note):
                 continue
             raw = (r.get("thstrm_amount") or "").replace(",", "").strip()
             amt = raw if re.fullmatch(r"-?\d+", raw) else ""
-            st, nt = ("수집", note) if amt else ("원문 확인", _add_note(note, f"당기 금액 글자 '{raw}'"))
+            if amt:
+                st, nt = "수집", note
+            elif not raw:
+                # H2 — API 당기 금액이 빈 값이면 0원
+                amt, st, nt = "0", "수집", _add_note(note, "API 당기 금액 빈 값 → 0원")
+            else:
+                st, nt = "원문 확인", _add_note(note, f"당기 금액 글자 '{raw}'")
             _put("financials", borrower=t["borrower"], corp_code=t["corp_code"], fs_div=label, route="재무제표 API",
                  rcept_no=r.get("rcept_no", ""), bsns_year=year, sj_div=r.get("sj_div", ""), item=item,
                  account_id=r.get("account_id", ""), account_nm=r.get("account_nm", ""), amount_won=amt,
@@ -782,7 +789,10 @@ def _fin_rows_doc(t, label, rcept_no, f, missing_note):
                 found.add(item)
                 txt, val, knote, problem, raw = _current_value(b["rows"], r)
                 amt = _int_text(val * mult) if (val is not None and mult) else None
-                if amt is None:
+                if amt is None and val is None and not problem and raw == "-":
+                    # H2 — 당기 칸 글자가 "-"이면 0원
+                    amt, st, nt = "0", "수집", _add_note(knote, '당기 칸 글자 "-" → 0원')
+                elif amt is None:
                     if val is None:
                         # F5 — 숫자가 아닌 당기 칸 글자를 적음
                         why = problem or (f'당기 칸 글자 "{raw}"' if raw else "당기 칸 숫자 없음")
@@ -880,6 +890,28 @@ def _opinion(f):
     return None, None, "", 0, "감사의견 원문 확인 — 감사의견 부분에서 의견 말·문구를 찾지 못함"
 
 
+_KISU_YEAR = re.compile(r"제(\d+)기\((\d{4})\)")
+
+
+def _audit_current_rows(lst, year):
+    """감사의견 API의 당기 줄 — '당기' 글자가 든 줄, 없으면 H4 규칙 (제n기(연도)는 연도 = 사업연도, 제n기는 n이 가장 큰 줄)
+    돌려줌: (당기 줄 목록, 정한 방법 note)"""
+    cur = [r for r in lst if "당기" in (r.get("bsns_year") or "")]
+    if cur:
+        return cur, ""
+    by_year = [(r, _KISU_YEAR.fullmatch(_nospace(r.get("bsns_year")))) for r in lst]
+    if any(m for _r, m in by_year):
+        sel = [r for r, m in by_year if m and m.group(2) == year]
+    else:
+        by_n = [(r, re.fullmatch(r"제(\d+)기", _nospace(r.get("bsns_year")))) for r in lst]
+        ns = [int(m.group(1)) for _r, m in by_n if m]
+        sel = [r for r, m in by_n if m and int(m.group(1)) == max(ns)] if ns else []
+    if not sel:
+        return [], ""
+    names = " · ".join(dict.fromkeys(_nospace(r.get("bsns_year")) for r in sel))
+    return sel, f"'당기' 글자 없음 → 당기 줄 = {names}"
+
+
 def collect_audit(t):
     """감사의견·회계 기준을 적음 (다 5번)"""
     RUN["where"] = f"{t['borrower']} · 5번 감사의견"
@@ -894,24 +926,47 @@ def collect_audit(t):
             states.append(("자료 없음", "감사의견 자료 없음 — API 013"))
         else:
             lst = d.get("list", [])
-            cur = [r for r in lst if "당기" in (r.get("bsns_year") or "")]
-            # E1 — 4개 칸이 모두 있고 adt_opinion이 빈 값·'-'가 아닌 당기 줄만 씀
-            use = [r for r in cur if all(k in r for k in ("bsns_year", "adtor", "adt_opinion", "stlm_dt"))
-                   and (r.get("adt_opinion") or "").strip() not in ("", "-")]
-            skipped = len(cur) - len(use)
-            if not cur:
-                states.append(("원문 확인", "감사의견 원문 확인 — '당기' 줄 없음"))
-            elif not use:
-                states.append(("원문 확인", "감사의견 원문 확인 — 쓸 수 있는 당기 줄 없음: " + str(cur[0])))
-            elif len({(r["adtor"], r["adt_opinion"]) for r in use}) > 1:
-                states.append(("원문 확인", "감사의견 원문 확인 — 당기 줄 값이 다름: "
-                               + " / ".join(f"{r['adtor']} {r['adt_opinion']}" for r in use)))
+            has_op = [r for r in lst if (r.get("adt_opinion") or "").strip() not in ("", "-")]
+            if not has_op:
+                # H3 — 의견 값이 있는 줄이 없으면 사업보고서 압축 파일 안 별도 감사보고서에서 읽음 (D8·F2 방법)
+                row["route"] = "감사보고서 원문"
+                locs.clear()
+                fa = _sep_audit(_doc(t["rcept_no"]))
+                op, blk, _ev, _pi, why = _opinion(fa) if fa else (None, None, "", 0, "별도 감사보고서 없음")
+                if op:
+                    row["opinion_raw"] = op
+                    states.append(("수집", "감사의견 API에 의견 값 없음 → 별도 감사보고서에서 읽음"))
+                else:
+                    states.append(("원문 확인", "감사의견 API에 의견 값 없음 → " + why))
+                locs.append(_loc(fa, blk) if blk else (fa["name"] if fa else ""))
             else:
-                row["auditor"], row["opinion_raw"] = use[0]["adtor"], use[0]["adt_opinion"]
-                row["rcept_no"] = use[0].get("rcept_no", t["rcept_no"])
-                states.append(("수집", ""))
-            if cur and skipped:
-                states.append(("수집", f"칸 빠진 당기 줄 {skipped}개"))
+                cur, how = _audit_current_rows(lst, t["fin_year"] or "2025")
+                # E1 — 4개 칸이 모두 있고 adt_opinion이 빈 값·'-'가 아닌 당기 줄만 씀
+                use = [r for r in cur if all(k in r for k in ("bsns_year", "adtor", "adt_opinion", "stlm_dt"))
+                       and (r.get("adt_opinion") or "").strip() not in ("", "-")]
+                skipped = len(cur) - len(use)
+                ops = list(dict.fromkeys(r["adt_opinion"] for r in use))
+                auds = list(dict.fromkeys(r["adtor"] for r in use))
+                if not cur:
+                    states.append(("원문 확인", "감사의견 원문 확인 — '당기' 줄 없음"))
+                elif not use:
+                    states.append(("원문 확인", "감사의견 원문 확인 — 쓸 수 있는 당기 줄 없음: " + str(cur[0])))
+                elif len(ops) > 1:
+                    states.append(("원문 확인", "감사의견 원문 확인 — 당기 줄 값이 다름: "
+                                   + " / ".join(f"{r['adtor']} {r['adt_opinion']}" for r in use)))
+                else:
+                    row["opinion_raw"] = ops[0]
+                    row["rcept_no"] = use[0].get("rcept_no", t["rcept_no"])
+                    if len(auds) > 1:
+                        # H4 — 감사의견 값이 모두 같고 감사인만 다르면 감사인은 빈 값
+                        states.append(("수집", "감사인 값이 둘 — " + " · ".join(auds)))
+                    else:
+                        row["auditor"] = auds[0]
+                        states.append(("수집", ""))
+                if how:
+                    states.append(("수집", how))
+                if cur and skipped:
+                    states.append(("수집", f"칸 빠진 당기 줄 {skipped}개"))
         f = _sep_audit(_doc(t["rcept_no"]))
     else:
         row["route"] = "감사보고서 원문"
@@ -923,6 +978,11 @@ def collect_audit(t):
         else:
             states.append(("원문 확인", why))
         locs.append(_loc(f, blk) if blk else (f["name"] if f else ""))
+    if f is None and t["route"] == "사업보고서":
+        # H5 — 별도 감사보고서 파일이 없으면 사업보고서 본문에서 같은 규칙으로 찾음
+        f = _main_report(_doc(t["rcept_no"]))
+        if f is not None:
+            states.append(("수집", "별도 감사보고서 없음 → 사업보고서 본문에서 회계 기준을 찾음"))
     if f is None:
         states.append(("원문 확인", "회계 기준 원문 확인 — 원문 문서 없음"))
     else:
