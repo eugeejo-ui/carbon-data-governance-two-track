@@ -1,0 +1,606 @@
+﻿seq,api,request,result_status,cache_hit,saved_file,at
+1,corpCode,,압축 파일,저장본,data/raw/dart/cache/corpCode.zip,2026-10-17 21:01:58
+2,list,corp_code=00252764&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00252764_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+3,list,corp_code=01096660&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01096660_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+4,list,corp_code=00226680&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00226680_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+5,list,corp_code=00178435&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00178435_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+6,list,corp_code=00114871&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00114871_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+7,list,corp_code=00761882&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00761882_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+8,list,corp_code=00211147&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00211147_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+9,list,corp_code=02008006&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-02008006_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+10,list,corp_code=01240085&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01240085_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+11,list,corp_code=01629495&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01629495_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+12,list,corp_code=00231512&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00231512_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+13,list,corp_code=00585486&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00585486_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+14,list,corp_code=01620971&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01620971_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+15,list,corp_code=00864842&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00864842_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+16,list,corp_code=00116301&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00116301_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+17,list,corp_code=00138260&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00138260_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+18,list,corp_code=00117300&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00117300_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+19,list,corp_code=00109587&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00109587_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+20,list,corp_code=00112721&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00112721_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+21,list,corp_code=00428729&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00428729_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+22,list,corp_code=00428729&bgn_de=20250101&end_de=20261017&page_count=100&page_no=2,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00428729_end_de-20261017_page_count-100_page_no-2.json,2026-10-17 21:02:00
+23,list,corp_code=00166175&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00166175_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+24,list,corp_code=00454937&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00454937_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+25,list,corp_code=00415594&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00415594_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+26,list,corp_code=00239639&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00239639_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+27,list,corp_code=00132318&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00132318_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+28,list,corp_code=01325979&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01325979_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+29,list,corp_code=00441410&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00441410_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:00
+30,list,corp_code=00117027&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00117027_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+31,list,corp_code=00143907&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00143907_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+32,list,corp_code=00144252&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00144252_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+33,list,corp_code=00157636&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00157636_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+34,list,corp_code=00186799&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00186799_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+35,list,corp_code=00435312&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00435312_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+36,list,corp_code=00124090&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00124090_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+37,list,corp_code=00156488&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00156488_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+38,list,corp_code=00151298&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00151298_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+39,list,corp_code=00115676&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00115676_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+40,list,corp_code=00115676&bgn_de=20250101&end_de=20261017&page_count=100&page_no=2,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00115676_end_de-20261017_page_count-100_page_no-2.json,2026-10-17 21:02:01
+41,list,corp_code=00101220&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00101220_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+42,list,corp_code=00101220&bgn_de=20250101&end_de=20261017&page_count=100&page_no=2,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00101220_end_de-20261017_page_count-100_page_no-2.json,2026-10-17 21:02:01
+43,list,corp_code=00206039&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00206039_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+44,list,corp_code=00105299&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00105299_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+45,list,corp_code=00107987&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00107987_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+46,list,corp_code=00220613&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00220613_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+47,list,corp_code=00950705&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00950705_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+48,list,corp_code=00113225&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00113225_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+49,list,corp_code=00172680&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00172680_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+50,list,corp_code=01765256&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01765256_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+51,list,corp_code=01765256&bgn_de=20250101&end_de=20261017&page_count=100&page_no=2,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01765256_end_de-20261017_page_count-100_page_no-2.json,2026-10-17 21:02:01
+52,list,corp_code=01765265&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01765265_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+53,list,corp_code=01765265&bgn_de=20250101&end_de=20261017&page_count=100&page_no=2,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01765265_end_de-20261017_page_count-100_page_no-2.json,2026-10-17 21:02:01
+54,list,corp_code=00159616&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00159616_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+55,list,corp_code=00159616&bgn_de=20250101&end_de=20261017&page_count=100&page_no=2,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00159616_end_de-20261017_page_count-100_page_no-2.json,2026-10-17 21:02:01
+56,list,corp_code=00159616&bgn_de=20250101&end_de=20261017&page_count=100&page_no=3,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00159616_end_de-20261017_page_count-100_page_no-3.json,2026-10-17 21:02:01
+57,list,corp_code=00760069&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00760069_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+58,list,corp_code=00120872&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00120872_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+59,list,corp_code=00120872&bgn_de=20250101&end_de=20261017&page_count=100&page_no=2,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00120872_end_de-20261017_page_count-100_page_no-2.json,2026-10-17 21:02:01
+60,list,corp_code=00125822&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00125822_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+61,list,corp_code=00126779&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00126779_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+62,list,corp_code=00129235&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00129235_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+63,list,corp_code=00132804&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00132804_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+64,list,corp_code=00138224&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00138224_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+65,list,corp_code=00670340&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00670340_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+66,list,corp_code=00670340&bgn_de=20250101&end_de=20261017&page_count=100&page_no=2,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00670340_end_de-20261017_page_count-100_page_no-2.json,2026-10-17 21:02:01
+67,list,corp_code=00990165&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00990165_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+68,list,corp_code=00486705&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00486705_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+69,list,corp_code=00480367&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00480367_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+70,list,corp_code=00480367&bgn_de=20250101&end_de=20261017&page_count=100&page_no=2,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00480367_end_de-20261017_page_count-100_page_no-2.json,2026-10-17 21:02:01
+71,list,corp_code=01319996&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01319996_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+72,list,corp_code=00146658&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00146658_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+73,list,corp_code=00149239&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00149239_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+74,list,corp_code=00958664&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00958664_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+75,list,corp_code=00150466&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00150466_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+76,list,corp_code=00117629&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00117629_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+77,list,corp_code=00766814&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00766814_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+78,list,corp_code=00156637&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00156637_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+79,list,corp_code=00257219&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00257219_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+80,list,corp_code=01319808&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01319808_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+81,list,corp_code=00163169&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00163169_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+82,list,corp_code=00163196&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00163196_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+83,list,corp_code=00156600&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00156600_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+84,list,corp_code=00125743&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00125743_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+85,list,corp_code=01467460&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01467460_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+86,list,corp_code=00145880&bgn_de=20250101&end_de=20261017&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00145880_end_de-20261017_page_count-100_page_no-1.json,2026-10-17 21:02:01
+87,list,corp_code=00145880&bgn_de=20250101&end_de=20261017&page_count=100&page_no=2,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00145880_end_de-20261017_page_count-100_page_no-2.json,2026-10-17 21:02:01
+88,fnlttSinglAcntAll,corp_code=00116301&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00116301_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+89,fnlttSinglAcntAll,corp_code=00116301&bsns_year=2025&reprt_code=11011&fs_div=CFS,013,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00116301_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+90,fnlttSinglAcntAll,corp_code=00138260&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00138260_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+91,fnlttSinglAcntAll,corp_code=00138260&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00138260_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+92,fnlttSinglAcntAll,corp_code=00117300&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00117300_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+93,fnlttSinglAcntAll,corp_code=00117300&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00117300_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+94,fnlttSinglAcntAll,corp_code=00109587&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00109587_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+95,fnlttSinglAcntAll,corp_code=00109587&bsns_year=2025&reprt_code=11011&fs_div=CFS,013,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00109587_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+96,fnlttSinglAcntAll,corp_code=00112721&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00112721_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+97,fnlttSinglAcntAll,corp_code=00112721&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00112721_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+98,fnlttSinglAcntAll,corp_code=00428729&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00428729_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+99,fnlttSinglAcntAll,corp_code=00428729&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00428729_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+100,fnlttSinglAcntAll,corp_code=00166175&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00166175_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+101,fnlttSinglAcntAll,corp_code=00166175&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00166175_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+102,fnlttSinglAcntAll,corp_code=00454937&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00454937_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+103,fnlttSinglAcntAll,corp_code=00454937&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00454937_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+104,fnlttSinglAcntAll,corp_code=00415594&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00415594_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+105,fnlttSinglAcntAll,corp_code=00415594&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00415594_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+106,document,rcept_no=20260409000647,압축 파일,저장본,data/raw/dart/docs/20260409000647.zip,2026-10-17 21:02:01
+107,list,corp_code=00226680&bgn_de=20250101&end_de=20261017&pblntf_detail_ty=F002&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00226680_end_de-20261017_page_count-100_page_no-1_pblntf_detail_ty-F002.json,2026-10-17 21:02:01
+108,fnlttSinglAcntAll,corp_code=00239639&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00239639_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+109,fnlttSinglAcntAll,corp_code=00239639&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00239639_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+110,fnlttSinglAcntAll,corp_code=00132318&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00132318_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+111,fnlttSinglAcntAll,corp_code=00132318&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00132318_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+112,document,rcept_no=20260326000276,압축 파일,저장본,data/raw/dart/docs/20260326000276.zip,2026-10-17 21:02:01
+113,list,corp_code=01240085&bgn_de=20250101&end_de=20261017&pblntf_detail_ty=F002&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01240085_end_de-20261017_page_count-100_page_no-1_pblntf_detail_ty-F002.json,2026-10-17 21:02:01
+114,fnlttSinglAcntAll,corp_code=01325979&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-01325979_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+115,fnlttSinglAcntAll,corp_code=01325979&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-01325979_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+116,document,rcept_no=20260402001164,압축 파일,저장본,data/raw/dart/docs/20260402001164.zip,2026-10-17 21:02:01
+117,list,corp_code=00441410&bgn_de=20250101&end_de=20261017&pblntf_detail_ty=F002&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00441410_end_de-20261017_page_count-100_page_no-1_pblntf_detail_ty-F002.json,2026-10-17 21:02:01
+118,fnlttSinglAcntAll,corp_code=00117027&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00117027_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+119,fnlttSinglAcntAll,corp_code=00117027&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00117027_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+120,fnlttSinglAcntAll,corp_code=00143907&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00143907_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+121,fnlttSinglAcntAll,corp_code=00143907&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00143907_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+122,fnlttSinglAcntAll,corp_code=00144252&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00144252_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+123,fnlttSinglAcntAll,corp_code=00144252&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00144252_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+124,fnlttSinglAcntAll,corp_code=00157636&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00157636_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+125,fnlttSinglAcntAll,corp_code=00157636&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00157636_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+126,fnlttSinglAcntAll,corp_code=00186799&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00186799_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+127,fnlttSinglAcntAll,corp_code=00186799&bsns_year=2025&reprt_code=11011&fs_div=CFS,013,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00186799_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+128,fnlttSinglAcntAll,corp_code=00435312&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00435312_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+129,fnlttSinglAcntAll,corp_code=00435312&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00435312_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+130,fnlttSinglAcntAll,corp_code=00124090&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00124090_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+131,fnlttSinglAcntAll,corp_code=00124090&bsns_year=2025&reprt_code=11011&fs_div=CFS,013,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00124090_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+132,fnlttSinglAcntAll,corp_code=00156488&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00156488_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+133,fnlttSinglAcntAll,corp_code=00156488&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00156488_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+134,fnlttSinglAcntAll,corp_code=00151298&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00151298_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+135,fnlttSinglAcntAll,corp_code=00151298&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00151298_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+136,fnlttSinglAcntAll,corp_code=00115676&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00115676_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+137,fnlttSinglAcntAll,corp_code=00115676&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00115676_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+138,fnlttSinglAcntAll,corp_code=00101220&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00101220_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+139,fnlttSinglAcntAll,corp_code=00101220&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00101220_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+140,fnlttSinglAcntAll,corp_code=00206039&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00206039_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+141,fnlttSinglAcntAll,corp_code=00206039&bsns_year=2025&reprt_code=11011&fs_div=CFS,013,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00206039_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+142,fnlttSinglAcntAll,corp_code=00105299&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00105299_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+143,fnlttSinglAcntAll,corp_code=00105299&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00105299_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+144,fnlttSinglAcntAll,corp_code=00107987&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00107987_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+145,fnlttSinglAcntAll,corp_code=00107987&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00107987_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+146,fnlttSinglAcntAll,corp_code=00220613&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00220613_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:01
+147,fnlttSinglAcntAll,corp_code=00220613&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00220613_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:01
+148,document,rcept_no=20260330001518,압축 파일,저장본,data/raw/dart/docs/20260330001518.zip,2026-10-17 21:02:01
+149,list,corp_code=00950705&bgn_de=20250101&end_de=20261017&pblntf_detail_ty=F002&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00950705_end_de-20261017_page_count-100_page_no-1_pblntf_detail_ty-F002.json,2026-10-17 21:02:01
+150,document,rcept_no=20260330001519,압축 파일,저장본,data/raw/dart/docs/20260330001519.zip,2026-10-17 21:02:01
+151,fnlttSinglAcntAll,corp_code=00113225&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00113225_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:02
+152,fnlttSinglAcntAll,corp_code=00113225&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00113225_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:02
+153,fnlttSinglAcntAll,corp_code=00172680&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00172680_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:02
+154,fnlttSinglAcntAll,corp_code=00172680&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00172680_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:02
+155,fnlttSinglAcntAll,corp_code=01765256&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-01765256_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:02
+156,fnlttSinglAcntAll,corp_code=01765256&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-01765256_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:02
+157,fnlttSinglAcntAll,corp_code=01765265&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-01765265_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:02
+158,fnlttSinglAcntAll,corp_code=01765265&bsns_year=2025&reprt_code=11011&fs_div=CFS,013,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-01765265_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:02
+159,fnlttSinglAcntAll,corp_code=00159616&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00159616_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:02
+160,fnlttSinglAcntAll,corp_code=00159616&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00159616_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:02
+161,document,rcept_no=20260316000184,압축 파일,저장본,data/raw/dart/docs/20260316000184.zip,2026-10-17 21:02:02
+162,list,corp_code=00760069&bgn_de=20250101&end_de=20261017&pblntf_detail_ty=F002&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00760069_end_de-20261017_page_count-100_page_no-1_pblntf_detail_ty-F002.json,2026-10-17 21:02:02
+163,fnlttSinglAcntAll,corp_code=00120872&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00120872_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:02
+164,fnlttSinglAcntAll,corp_code=00120872&bsns_year=2026&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2026_corp_code-00120872_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:02
+165,fnlttSinglAcntAll,corp_code=00120872&bsns_year=2025&reprt_code=11011&fs_div=CFS,013,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00120872_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:02
+166,fnlttSinglAcntAll,corp_code=00125822&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00125822_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:02
+167,fnlttSinglAcntAll,corp_code=00125822&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00125822_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:02
+168,fnlttSinglAcntAll,corp_code=00126779&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00126779_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:02
+169,fnlttSinglAcntAll,corp_code=00126779&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00126779_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:02
+170,fnlttSinglAcntAll,corp_code=00129235&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00129235_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:02
+171,fnlttSinglAcntAll,corp_code=00129235&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00129235_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:02
+172,fnlttSinglAcntAll,corp_code=00132804&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00132804_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:02
+173,fnlttSinglAcntAll,corp_code=00132804&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00132804_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:02
+174,fnlttSinglAcntAll,corp_code=00138224&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00138224_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:02
+175,fnlttSinglAcntAll,corp_code=00138224&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00138224_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:02
+176,fnlttSinglAcntAll,corp_code=00670340&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00670340_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:02
+177,fnlttSinglAcntAll,corp_code=00670340&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00670340_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:02
+178,fnlttSinglAcntAll,corp_code=00990165&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00990165_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:02
+179,fnlttSinglAcntAll,corp_code=00990165&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00990165_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:02
+180,fnlttSinglAcntAll,corp_code=00486705&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00486705_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:02
+181,fnlttSinglAcntAll,corp_code=00486705&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00486705_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:02
+182,fnlttSinglAcntAll,corp_code=00480367&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00480367_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:02
+183,fnlttSinglAcntAll,corp_code=00480367&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00480367_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:02
+184,document,rcept_no=20260703000011,압축 파일,저장본,data/raw/dart/docs/20260703000011.zip,2026-10-17 21:02:02
+185,list,corp_code=01319996&bgn_de=20250101&end_de=20261017&pblntf_detail_ty=F002&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01319996_end_de-20261017_page_count-100_page_no-1_pblntf_detail_ty-F002.json,2026-10-17 21:02:02
+186,document,rcept_no=20260413001676,압축 파일,저장본,data/raw/dart/docs/20260413001676.zip,2026-10-17 21:02:02
+187,list,corp_code=00146658&bgn_de=20250101&end_de=20261017&pblntf_detail_ty=F002&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00146658_end_de-20261017_page_count-100_page_no-1_pblntf_detail_ty-F002.json,2026-10-17 21:02:02
+188,document,rcept_no=20260413001689,압축 파일,저장본,data/raw/dart/docs/20260413001689.zip,2026-10-17 21:02:02
+189,fnlttSinglAcntAll,corp_code=00149239&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00149239_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:02
+190,fnlttSinglAcntAll,corp_code=00149239&bsns_year=2025&reprt_code=11011&fs_div=CFS,013,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00149239_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:02
+191,fnlttSinglAcntAll,corp_code=01629495&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-01629495_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:02
+192,fnlttSinglAcntAll,corp_code=01629495&bsns_year=2025&reprt_code=11011&fs_div=CFS,013,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-01629495_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:02
+193,fnlttSinglAcntAll,corp_code=00231512&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00231512_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:02
+194,fnlttSinglAcntAll,corp_code=00231512&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00231512_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:02
+195,fnlttSinglAcntAll,corp_code=00958664&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00958664_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:02
+196,fnlttSinglAcntAll,corp_code=00958664&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00958664_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:02
+197,document,rcept_no=20260330000517,압축 파일,저장본,data/raw/dart/docs/20260330000517.zip,2026-10-17 21:02:02
+198,list,corp_code=00585486&bgn_de=20250101&end_de=20261017&pblntf_detail_ty=F002&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00585486_end_de-20261017_page_count-100_page_no-1_pblntf_detail_ty-F002.json,2026-10-17 21:02:02
+199,fnlttSinglAcntAll,corp_code=01620971&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-01620971_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:02
+200,fnlttSinglAcntAll,corp_code=01620971&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-01620971_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:03
+201,document,rcept_no=20260331004512,압축 파일,저장본,data/raw/dart/docs/20260331004512.zip,2026-10-17 21:02:03
+202,list,corp_code=00150466&bgn_de=20250101&end_de=20261017&pblntf_detail_ty=F002&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00150466_end_de-20261017_page_count-100_page_no-1_pblntf_detail_ty-F002.json,2026-10-17 21:02:03
+203,fnlttSinglAcntAll,corp_code=00117629&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00117629_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:03
+204,fnlttSinglAcntAll,corp_code=00117629&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00117629_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:03
+205,document,rcept_no=20260402000938,압축 파일,저장본,data/raw/dart/docs/20260402000938.zip,2026-10-17 21:02:03
+206,list,corp_code=00766814&bgn_de=20250101&end_de=20261017&pblntf_detail_ty=F002&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00766814_end_de-20261017_page_count-100_page_no-1_pblntf_detail_ty-F002.json,2026-10-17 21:02:03
+207,document,rcept_no=20260324000081,압축 파일,저장본,data/raw/dart/docs/20260324000081.zip,2026-10-17 21:02:03
+208,list,corp_code=00156637&bgn_de=20250101&end_de=20261017&pblntf_detail_ty=F002&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00156637_end_de-20261017_page_count-100_page_no-1_pblntf_detail_ty-F002.json,2026-10-17 21:02:03
+209,document,rcept_no=20260324000088,압축 파일,저장본,data/raw/dart/docs/20260324000088.zip,2026-10-17 21:02:03
+210,document,rcept_no=20260331001063,압축 파일,저장본,data/raw/dart/docs/20260331001063.zip,2026-10-17 21:02:03
+211,list,corp_code=00257219&bgn_de=20250101&end_de=20261017&pblntf_detail_ty=F002&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00257219_end_de-20261017_page_count-100_page_no-1_pblntf_detail_ty-F002.json,2026-10-17 21:02:03
+212,fnlttSinglAcntAll,corp_code=01319808&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-01319808_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:03
+213,fnlttSinglAcntAll,corp_code=01319808&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-01319808_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:03
+214,document,rcept_no=20260330000576,압축 파일,저장본,data/raw/dart/docs/20260330000576.zip,2026-10-17 21:02:03
+215,list,corp_code=00163169&bgn_de=20250101&end_de=20261017&pblntf_detail_ty=F002&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00163169_end_de-20261017_page_count-100_page_no-1_pblntf_detail_ty-F002.json,2026-10-17 21:02:03
+216,document,rcept_no=20260401001124,압축 파일,저장본,data/raw/dart/docs/20260401001124.zip,2026-10-17 21:02:03
+217,fnlttSinglAcntAll,corp_code=00163196&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00163196_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:03
+218,fnlttSinglAcntAll,corp_code=00163196&bsns_year=2026&reprt_code=11011&fs_div=OFS,013,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2026_corp_code-00163196_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:03
+219,fnlttSinglAcntAll,corp_code=00163196&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00163196_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:03
+220,fnlttSinglAcntAll,corp_code=00163196&bsns_year=2026&reprt_code=11011&fs_div=CFS,013,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2026_corp_code-00163196_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:03
+221,fnlttSinglAcntAll,corp_code=00156600&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00156600_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:03
+222,fnlttSinglAcntAll,corp_code=00156600&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00156600_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:03
+223,fnlttSinglAcntAll,corp_code=00125743&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00125743_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:03
+224,fnlttSinglAcntAll,corp_code=00125743&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00125743_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:03
+225,document,rcept_no=20260320000515,압축 파일,저장본,data/raw/dart/docs/20260320000515.zip,2026-10-17 21:02:03
+226,list,corp_code=01467460&bgn_de=20250101&end_de=20261017&pblntf_detail_ty=F002&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01467460_end_de-20261017_page_count-100_page_no-1_pblntf_detail_ty-F002.json,2026-10-17 21:02:04
+227,fnlttSinglAcntAll,corp_code=00145880&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00145880_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:04
+228,fnlttSinglAcntAll,corp_code=00145880&bsns_year=2025&reprt_code=11011&fs_div=CFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00145880_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:04
+229,fnlttSinglAcntAll,corp_code=00864842&bsns_year=2025&reprt_code=11011&fs_div=OFS,000,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00864842_fs_div-OFS_reprt_code-11011.json,2026-10-17 21:02:04
+230,fnlttSinglAcntAll,corp_code=00864842&bsns_year=2025&reprt_code=11011&fs_div=CFS,013,저장본,data/raw/dart/cache/fnlttSinglAcntAll_bsns_year-2025_corp_code-00864842_fs_div-CFS_reprt_code-11011.json,2026-10-17 21:02:04
+231,accnutAdtorNmNdAdtOpinion,corp_code=00116301&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00116301_reprt_code-11011.json,2026-10-17 21:02:04
+232,document,rcept_no=20260312001308,압축 파일,저장본,data/raw/dart/docs/20260312001308.zip,2026-10-17 21:02:04
+233,accnutAdtorNmNdAdtOpinion,corp_code=00138260&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00138260_reprt_code-11011.json,2026-10-17 21:02:04
+234,document,rcept_no=20260318001274,압축 파일,저장본,data/raw/dart/docs/20260318001274.zip,2026-10-17 21:02:04
+235,accnutAdtorNmNdAdtOpinion,corp_code=00117300&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00117300_reprt_code-11011.json,2026-10-17 21:02:06
+236,document,rcept_no=20260318000366,압축 파일,저장본,data/raw/dart/docs/20260318000366.zip,2026-10-17 21:02:06
+237,accnutAdtorNmNdAdtOpinion,corp_code=00109587&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00109587_reprt_code-11011.json,2026-10-17 21:02:07
+238,document,rcept_no=20260319000299,압축 파일,저장본,data/raw/dart/docs/20260319000299.zip,2026-10-17 21:02:07
+239,accnutAdtorNmNdAdtOpinion,corp_code=00112721&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00112721_reprt_code-11011.json,2026-10-17 21:02:07
+240,document,rcept_no=20260323000588,압축 파일,저장본,data/raw/dart/docs/20260323000588.zip,2026-10-17 21:02:07
+241,accnutAdtorNmNdAdtOpinion,corp_code=00428729&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00428729_reprt_code-11011.json,2026-10-17 21:02:08
+242,document,rcept_no=20260324000005,압축 파일,저장본,data/raw/dart/docs/20260324000005.zip,2026-10-17 21:02:08
+243,accnutAdtorNmNdAdtOpinion,corp_code=00166175&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00166175_reprt_code-11011.json,2026-10-17 21:02:09
+244,document,rcept_no=20260317000646,압축 파일,저장본,data/raw/dart/docs/20260317000646.zip,2026-10-17 21:02:09
+245,accnutAdtorNmNdAdtOpinion,corp_code=00454937&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00454937_reprt_code-11011.json,2026-10-17 21:02:10
+246,document,rcept_no=20260310003096,압축 파일,저장본,data/raw/dart/docs/20260310003096.zip,2026-10-17 21:02:10
+247,accnutAdtorNmNdAdtOpinion,corp_code=00415594&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00415594_reprt_code-11011.json,2026-10-17 21:02:11
+248,document,rcept_no=20260316001236,압축 파일,저장본,data/raw/dart/docs/20260316001236.zip,2026-10-17 21:02:11
+249,accnutAdtorNmNdAdtOpinion,corp_code=00239639&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00239639_reprt_code-11011.json,2026-10-17 21:02:13
+250,document,rcept_no=20260320000882,압축 파일,저장본,data/raw/dart/docs/20260320000882.zip,2026-10-17 21:02:13
+251,accnutAdtorNmNdAdtOpinion,corp_code=00132318&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00132318_reprt_code-11011.json,2026-10-17 21:02:14
+252,document,rcept_no=20260319000739,압축 파일,저장본,data/raw/dart/docs/20260319000739.zip,2026-10-17 21:02:14
+253,accnutAdtorNmNdAdtOpinion,corp_code=01325979&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-01325979_reprt_code-11011.json,2026-10-17 21:02:15
+254,document,rcept_no=20260312000989,압축 파일,저장본,data/raw/dart/docs/20260312000989.zip,2026-10-17 21:02:15
+255,accnutAdtorNmNdAdtOpinion,corp_code=00117027&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00117027_reprt_code-11011.json,2026-10-17 21:02:16
+256,document,rcept_no=20260318001554,압축 파일,저장본,data/raw/dart/docs/20260318001554.zip,2026-10-17 21:02:16
+257,accnutAdtorNmNdAdtOpinion,corp_code=00143907&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00143907_reprt_code-11011.json,2026-10-17 21:02:17
+258,document,rcept_no=20260316000744,압축 파일,저장본,data/raw/dart/docs/20260316000744.zip,2026-10-17 21:02:17
+259,accnutAdtorNmNdAdtOpinion,corp_code=00144252&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00144252_reprt_code-11011.json,2026-10-17 21:02:18
+260,document,rcept_no=20260319000893,압축 파일,저장본,data/raw/dart/docs/20260319000893.zip,2026-10-17 21:02:18
+261,accnutAdtorNmNdAdtOpinion,corp_code=00157636&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00157636_reprt_code-11011.json,2026-10-17 21:02:19
+262,document,rcept_no=20260317000758,압축 파일,저장본,data/raw/dart/docs/20260317000758.zip,2026-10-17 21:02:19
+263,accnutAdtorNmNdAdtOpinion,corp_code=00186799&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00186799_reprt_code-11011.json,2026-10-17 21:02:20
+264,document,rcept_no=20260318001708,압축 파일,저장본,data/raw/dart/docs/20260318001708.zip,2026-10-17 21:02:20
+265,accnutAdtorNmNdAdtOpinion,corp_code=00435312&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00435312_reprt_code-11011.json,2026-10-17 21:02:21
+266,document,rcept_no=20260310002913,압축 파일,저장본,data/raw/dart/docs/20260310002913.zip,2026-10-17 21:02:21
+267,accnutAdtorNmNdAdtOpinion,corp_code=00124090&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00124090_reprt_code-11011.json,2026-10-17 21:02:22
+268,document,rcept_no=20260323000279,압축 파일,저장본,data/raw/dart/docs/20260323000279.zip,2026-10-17 21:02:22
+269,accnutAdtorNmNdAdtOpinion,corp_code=00156488&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00156488_reprt_code-11011.json,2026-10-17 21:02:22
+270,document,rcept_no=20260323001458,압축 파일,저장본,data/raw/dart/docs/20260323001458.zip,2026-10-17 21:02:22
+271,accnutAdtorNmNdAdtOpinion,corp_code=00151298&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00151298_reprt_code-11011.json,2026-10-17 21:02:23
+272,document,rcept_no=20260318001149,압축 파일,저장본,data/raw/dart/docs/20260318001149.zip,2026-10-17 21:02:23
+273,accnutAdtorNmNdAdtOpinion,corp_code=00115676&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00115676_reprt_code-11011.json,2026-10-17 21:02:24
+274,document,rcept_no=20260316001588,압축 파일,저장본,data/raw/dart/docs/20260316001588.zip,2026-10-17 21:02:24
+275,accnutAdtorNmNdAdtOpinion,corp_code=00101220&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00101220_reprt_code-11011.json,2026-10-17 21:02:24
+276,document,rcept_no=20260323001613,압축 파일,저장본,data/raw/dart/docs/20260323001613.zip,2026-10-17 21:02:24
+277,accnutAdtorNmNdAdtOpinion,corp_code=00206039&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00206039_reprt_code-11011.json,2026-10-17 21:02:26
+278,document,rcept_no=20260309001568,압축 파일,저장본,data/raw/dart/docs/20260309001568.zip,2026-10-17 21:02:26
+279,accnutAdtorNmNdAdtOpinion,corp_code=00105299&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00105299_reprt_code-11011.json,2026-10-17 21:02:26
+280,document,rcept_no=20260312000935,압축 파일,저장본,data/raw/dart/docs/20260312000935.zip,2026-10-17 21:02:26
+281,accnutAdtorNmNdAdtOpinion,corp_code=00107987&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00107987_reprt_code-11011.json,2026-10-17 21:02:27
+282,document,rcept_no=20260319000635,압축 파일,저장본,data/raw/dart/docs/20260319000635.zip,2026-10-17 21:02:27
+283,accnutAdtorNmNdAdtOpinion,corp_code=00220613&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00220613_reprt_code-11011.json,2026-10-17 21:02:28
+284,document,rcept_no=20260320001261,압축 파일,저장본,data/raw/dart/docs/20260320001261.zip,2026-10-17 21:02:28
+285,accnutAdtorNmNdAdtOpinion,corp_code=00113225&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00113225_reprt_code-11011.json,2026-10-17 21:02:29
+286,document,rcept_no=20260318000780,압축 파일,저장본,data/raw/dart/docs/20260318000780.zip,2026-10-17 21:02:29
+287,accnutAdtorNmNdAdtOpinion,corp_code=00172680&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00172680_reprt_code-11011.json,2026-10-17 21:02:30
+288,document,rcept_no=20260318001458,압축 파일,저장본,data/raw/dart/docs/20260318001458.zip,2026-10-17 21:02:30
+289,accnutAdtorNmNdAdtOpinion,corp_code=01765256&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-01765256_reprt_code-11011.json,2026-10-17 21:02:31
+290,document,rcept_no=20260316001579,압축 파일,저장본,data/raw/dart/docs/20260316001579.zip,2026-10-17 21:02:31
+291,accnutAdtorNmNdAdtOpinion,corp_code=01765265&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-01765265_reprt_code-11011.json,2026-10-17 21:02:32
+292,document,rcept_no=20260313000519,압축 파일,저장본,data/raw/dart/docs/20260313000519.zip,2026-10-17 21:02:32
+293,accnutAdtorNmNdAdtOpinion,corp_code=00159616&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00159616_reprt_code-11011.json,2026-10-17 21:02:33
+294,document,rcept_no=20260320001246,압축 파일,저장본,data/raw/dart/docs/20260320001246.zip,2026-10-17 21:02:33
+295,accnutAdtorNmNdAdtOpinion,corp_code=00120872&bsns_year=2026&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2026_corp_code-00120872_reprt_code-11011.json,2026-10-17 21:02:35
+296,document,rcept_no=20260910000496,압축 파일,저장본,data/raw/dart/docs/20260910000496.zip,2026-10-17 21:02:35
+297,accnutAdtorNmNdAdtOpinion,corp_code=00125822&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00125822_reprt_code-11011.json,2026-10-17 21:02:36
+298,document,rcept_no=20260407003361,압축 파일,저장본,data/raw/dart/docs/20260407003361.zip,2026-10-17 21:02:36
+299,accnutAdtorNmNdAdtOpinion,corp_code=00126779&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00126779_reprt_code-11011.json,2026-10-17 21:02:36
+300,document,rcept_no=20260318000860,압축 파일,저장본,data/raw/dart/docs/20260318000860.zip,2026-10-17 21:02:36
+301,accnutAdtorNmNdAdtOpinion,corp_code=00129235&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00129235_reprt_code-11011.json,2026-10-17 21:02:37
+302,document,rcept_no=20260319000454,압축 파일,저장본,data/raw/dart/docs/20260319000454.zip,2026-10-17 21:02:37
+303,accnutAdtorNmNdAdtOpinion,corp_code=00132804&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00132804_reprt_code-11011.json,2026-10-17 21:02:37
+304,document,rcept_no=20260318001369,압축 파일,저장본,data/raw/dart/docs/20260318001369.zip,2026-10-17 21:02:37
+305,accnutAdtorNmNdAdtOpinion,corp_code=00138224&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00138224_reprt_code-11011.json,2026-10-17 21:02:39
+306,document,rcept_no=20260331004655,압축 파일,저장본,data/raw/dart/docs/20260331004655.zip,2026-10-17 21:02:39
+307,accnutAdtorNmNdAdtOpinion,corp_code=00670340&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00670340_reprt_code-11011.json,2026-10-17 21:02:39
+308,document,rcept_no=20260318001110,압축 파일,저장본,data/raw/dart/docs/20260318001110.zip,2026-10-17 21:02:39
+309,accnutAdtorNmNdAdtOpinion,corp_code=00990165&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00990165_reprt_code-11011.json,2026-10-17 21:02:41
+310,document,rcept_no=20260318001310,압축 파일,저장본,data/raw/dart/docs/20260318001310.zip,2026-10-17 21:02:41
+311,accnutAdtorNmNdAdtOpinion,corp_code=00486705&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00486705_reprt_code-11011.json,2026-10-17 21:02:42
+312,document,rcept_no=20260318001296,압축 파일,저장본,data/raw/dart/docs/20260318001296.zip,2026-10-17 21:02:42
+313,accnutAdtorNmNdAdtOpinion,corp_code=00480367&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00480367_reprt_code-11011.json,2026-10-17 21:02:45
+314,document,rcept_no=20260323000486,압축 파일,저장본,data/raw/dart/docs/20260323000486.zip,2026-10-17 21:02:45
+315,accnutAdtorNmNdAdtOpinion,corp_code=00149239&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00149239_reprt_code-11011.json,2026-10-17 21:02:46
+316,document,rcept_no=20260312000761,압축 파일,저장본,data/raw/dart/docs/20260312000761.zip,2026-10-17 21:02:46
+317,accnutAdtorNmNdAdtOpinion,corp_code=01629495&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-01629495_reprt_code-11011.json,2026-10-17 21:02:47
+318,document,rcept_no=20260313000646,압축 파일,저장본,data/raw/dart/docs/20260313000646.zip,2026-10-17 21:02:47
+319,accnutAdtorNmNdAdtOpinion,corp_code=00231512&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00231512_reprt_code-11011.json,2026-10-17 21:02:47
+320,document,rcept_no=20260313000846,압축 파일,저장본,data/raw/dart/docs/20260313000846.zip,2026-10-17 21:02:47
+321,accnutAdtorNmNdAdtOpinion,corp_code=00958664&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00958664_reprt_code-11011.json,2026-10-17 21:02:48
+322,document,rcept_no=20260318000805,압축 파일,저장본,data/raw/dart/docs/20260318000805.zip,2026-10-17 21:02:48
+323,accnutAdtorNmNdAdtOpinion,corp_code=01620971&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-01620971_reprt_code-11011.json,2026-10-17 21:02:49
+324,document,rcept_no=20260312001382,압축 파일,저장본,data/raw/dart/docs/20260312001382.zip,2026-10-17 21:02:49
+325,accnutAdtorNmNdAdtOpinion,corp_code=00117629&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00117629_reprt_code-11011.json,2026-10-17 21:02:50
+326,document,rcept_no=20260318001380,압축 파일,저장본,data/raw/dart/docs/20260318001380.zip,2026-10-17 21:02:50
+327,accnutAdtorNmNdAdtOpinion,corp_code=01319808&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-01319808_reprt_code-11011.json,2026-10-17 21:02:51
+328,document,rcept_no=20260317000863,압축 파일,저장본,data/raw/dart/docs/20260317000863.zip,2026-10-17 21:02:51
+329,accnutAdtorNmNdAdtOpinion,corp_code=00163196&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00163196_reprt_code-11011.json,2026-10-17 21:02:52
+330,document,rcept_no=20260311004523,압축 파일,저장본,data/raw/dart/docs/20260311004523.zip,2026-10-17 21:02:52
+331,accnutAdtorNmNdAdtOpinion,corp_code=00156600&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00156600_reprt_code-11011.json,2026-10-17 21:02:53
+332,document,rcept_no=20260317000438,압축 파일,저장본,data/raw/dart/docs/20260317000438.zip,2026-10-17 21:02:53
+333,accnutAdtorNmNdAdtOpinion,corp_code=00125743&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00125743_reprt_code-11011.json,2026-10-17 21:02:53
+334,document,rcept_no=20260316001374,압축 파일,저장본,data/raw/dart/docs/20260316001374.zip,2026-10-17 21:02:53
+335,accnutAdtorNmNdAdtOpinion,corp_code=00145880&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00145880_reprt_code-11011.json,2026-10-17 21:02:54
+336,document,rcept_no=20260318001506,압축 파일,저장본,data/raw/dart/docs/20260318001506.zip,2026-10-17 21:02:54
+337,accnutAdtorNmNdAdtOpinion,corp_code=00864842&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/accnutAdtorNmNdAdtOpinion_bsns_year-2025_corp_code-00864842_reprt_code-11011.json,2026-10-17 21:02:55
+338,document,rcept_no=20260330001523,압축 파일,저장본,data/raw/dart/docs/20260330001523.zip,2026-10-17 21:02:55
+339,document,rcept_no=20260708000008,압축 파일,저장본,data/raw/dart/docs/20260708000008.zip,2026-10-17 21:02:55
+340,document,rcept_no=20260602000398,압축 파일,저장본,data/raw/dart/docs/20260602000398.zip,2026-10-17 21:02:56
+341,document,rcept_no=20260317000766,압축 파일,저장본,data/raw/dart/docs/20260317000766.zip,2026-10-17 21:02:56
+342,document,rcept_no=20260317000578,압축 파일,저장본,data/raw/dart/docs/20260317000578.zip,2026-10-17 21:02:57
+343,document,rcept_no=20260806000290,압축 파일,저장본,data/raw/dart/docs/20260806000290.zip,2026-10-17 21:02:58
+344,document,rcept_no=20260331001935,압축 파일,저장본,data/raw/dart/docs/20260331001935.zip,2026-10-17 21:02:58
+345,list,corp_code=00116301&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00116301_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+346,list,corp_code=00116301&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00116301_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+347,list,corp_code=00138260&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00138260_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+348,list,corp_code=00138260&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00138260_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+349,list,corp_code=00117300&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00117300_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+350,list,corp_code=00117300&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00117300_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+351,list,corp_code=00109587&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00109587_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+352,list,corp_code=00109587&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00109587_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+353,list,corp_code=00112721&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00112721_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+354,list,corp_code=00112721&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00112721_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+355,list,corp_code=00428729&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00428729_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+356,list,corp_code=00428729&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00428729_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+357,list,corp_code=00428729&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=2,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00428729_end_de-20261017_page_count-100_page_no-2_pblntf_ty-I.json,2026-10-17 21:03:00
+358,list,corp_code=00166175&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00166175_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+359,list,corp_code=00166175&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00166175_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+360,list,corp_code=00454937&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00454937_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+361,list,corp_code=00454937&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00454937_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+362,list,corp_code=00415594&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00415594_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+363,list,corp_code=00415594&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00415594_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+364,list,corp_code=00226680&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00226680_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+365,list,corp_code=00226680&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00226680_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+366,list,corp_code=00239639&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00239639_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+367,list,corp_code=00239639&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00239639_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+368,list,corp_code=00132318&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00132318_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+369,list,corp_code=00132318&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00132318_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+370,list,corp_code=01240085&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01240085_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+371,list,corp_code=01240085&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01240085_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+372,list,corp_code=01325979&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01325979_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+373,list,corp_code=01325979&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01325979_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+374,list,corp_code=00441410&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00441410_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+375,list,corp_code=00441410&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00441410_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+376,list,corp_code=00117027&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00117027_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+377,list,corp_code=00117027&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00117027_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+378,list,corp_code=00143907&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00143907_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+379,list,corp_code=00143907&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00143907_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+380,list,corp_code=00144252&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00144252_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+381,list,corp_code=00144252&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00144252_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+382,list,corp_code=00157636&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00157636_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+383,list,corp_code=00157636&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00157636_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+384,list,corp_code=00186799&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00186799_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+385,list,corp_code=00186799&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00186799_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+386,list,corp_code=00435312&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00435312_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+387,list,corp_code=00435312&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00435312_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+388,list,corp_code=00124090&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00124090_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+389,list,corp_code=00124090&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00124090_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+390,list,corp_code=00156488&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00156488_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+391,list,corp_code=00156488&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00156488_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+392,list,corp_code=00151298&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00151298_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+393,list,corp_code=00151298&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00151298_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+394,list,corp_code=00115676&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00115676_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+395,list,corp_code=00115676&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00115676_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+396,list,corp_code=00101220&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00101220_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+397,list,corp_code=00101220&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00101220_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+398,list,corp_code=00206039&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00206039_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+399,list,corp_code=00206039&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00206039_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+400,list,corp_code=00105299&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00105299_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+401,list,corp_code=00105299&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00105299_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+402,list,corp_code=00107987&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00107987_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+403,list,corp_code=00107987&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00107987_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+404,list,corp_code=00220613&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00220613_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+405,list,corp_code=00220613&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00220613_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+406,list,corp_code=00950705&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00950705_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+407,list,corp_code=00950705&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00950705_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+408,list,corp_code=00113225&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00113225_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+409,list,corp_code=00113225&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00113225_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+410,list,corp_code=00172680&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00172680_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+411,list,corp_code=00172680&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00172680_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+412,list,corp_code=01765256&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01765256_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+413,list,corp_code=01765256&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01765256_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+414,list,corp_code=01765265&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01765265_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+415,list,corp_code=01765265&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01765265_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+416,list,corp_code=00159616&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00159616_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+417,list,corp_code=00159616&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00159616_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+418,list,corp_code=00159616&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=2,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00159616_end_de-20261017_page_count-100_page_no-2_pblntf_ty-I.json,2026-10-17 21:03:00
+419,list,corp_code=00760069&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00760069_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+420,list,corp_code=00760069&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00760069_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+421,list,corp_code=00120872&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00120872_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+422,list,corp_code=00120872&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00120872_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+423,list,corp_code=00125822&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00125822_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+424,list,corp_code=00125822&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00125822_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+425,list,corp_code=00126779&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00126779_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+426,list,corp_code=00126779&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00126779_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+427,list,corp_code=00129235&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00129235_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+428,list,corp_code=00129235&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00129235_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+429,list,corp_code=00132804&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00132804_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+430,list,corp_code=00132804&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00132804_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+431,list,corp_code=00138224&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00138224_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+432,list,corp_code=00138224&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00138224_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+433,list,corp_code=00670340&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00670340_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+434,list,corp_code=00670340&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00670340_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+435,list,corp_code=00670340&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=2,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00670340_end_de-20261017_page_count-100_page_no-2_pblntf_ty-I.json,2026-10-17 21:03:00
+436,list,corp_code=00990165&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00990165_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+437,list,corp_code=00990165&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00990165_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+438,list,corp_code=00486705&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00486705_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+439,list,corp_code=00486705&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00486705_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+440,list,corp_code=00480367&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00480367_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+441,list,corp_code=00480367&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00480367_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+442,list,corp_code=01319996&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01319996_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+443,list,corp_code=01319996&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01319996_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+444,list,corp_code=00146658&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00146658_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+445,list,corp_code=00146658&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00146658_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+446,list,corp_code=00149239&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00149239_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+447,list,corp_code=00149239&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00149239_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+448,list,corp_code=01629495&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01629495_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+449,list,corp_code=01629495&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01629495_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+450,list,corp_code=00231512&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00231512_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+451,list,corp_code=00231512&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00231512_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+452,list,corp_code=00958664&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00958664_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+453,list,corp_code=00958664&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00958664_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+454,list,corp_code=00585486&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00585486_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+455,list,corp_code=00585486&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00585486_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+456,list,corp_code=01620971&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01620971_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+457,list,corp_code=01620971&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01620971_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+458,list,corp_code=00150466&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00150466_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+459,list,corp_code=00150466&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00150466_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+460,list,corp_code=00117629&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00117629_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+461,list,corp_code=00117629&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00117629_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+462,list,corp_code=00766814&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00766814_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+463,list,corp_code=00766814&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00766814_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+464,list,corp_code=00156637&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00156637_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+465,list,corp_code=00156637&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00156637_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+466,list,corp_code=00257219&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00257219_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+467,list,corp_code=00257219&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00257219_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+468,list,corp_code=01319808&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01319808_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+469,list,corp_code=01319808&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01319808_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+470,list,corp_code=00163169&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00163169_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+471,list,corp_code=00163169&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00163169_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+472,list,corp_code=00163196&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00163196_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+473,list,corp_code=00163196&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00163196_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+474,list,corp_code=00156600&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00156600_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+475,list,corp_code=00156600&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00156600_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+476,list,corp_code=00125743&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00125743_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+477,list,corp_code=00125743&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00125743_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+478,list,corp_code=01467460&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01467460_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+479,list,corp_code=01467460&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-01467460_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+480,list,corp_code=00145880&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00145880_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+481,list,corp_code=00145880&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,000,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00145880_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+482,list,corp_code=00864842&bgn_de=20250101&end_de=20261017&pblntf_ty=B&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00864842_end_de-20261017_page_count-100_page_no-1_pblntf_ty-B.json,2026-10-17 21:03:00
+483,list,corp_code=00864842&bgn_de=20250101&end_de=20261017&pblntf_ty=I&page_count=100&page_no=1,013,저장본,data/raw/dart/cache/list_bgn_de-20250101_corp_code-00864842_end_de-20261017_page_count-100_page_no-1_pblntf_ty-I.json,2026-10-17 21:03:00
+484,company,corp_code=00116301,000,저장본,data/raw/dart/cache/company_corp_code-00116301.json,2026-10-17 21:03:00
+485,company,corp_code=00138260,000,저장본,data/raw/dart/cache/company_corp_code-00138260.json,2026-10-17 21:03:00
+486,company,corp_code=00117300,000,저장본,data/raw/dart/cache/company_corp_code-00117300.json,2026-10-17 21:03:00
+487,company,corp_code=00109587,000,저장본,data/raw/dart/cache/company_corp_code-00109587.json,2026-10-17 21:03:00
+488,company,corp_code=00112721,000,저장본,data/raw/dart/cache/company_corp_code-00112721.json,2026-10-17 21:03:00
+489,company,corp_code=00428729,000,저장본,data/raw/dart/cache/company_corp_code-00428729.json,2026-10-17 21:03:00
+490,company,corp_code=00166175,000,저장본,data/raw/dart/cache/company_corp_code-00166175.json,2026-10-17 21:03:00
+491,company,corp_code=00454937,000,저장본,data/raw/dart/cache/company_corp_code-00454937.json,2026-10-17 21:03:00
+492,company,corp_code=00415594,000,저장본,data/raw/dart/cache/company_corp_code-00415594.json,2026-10-17 21:03:00
+493,company,corp_code=00226680,000,저장본,data/raw/dart/cache/company_corp_code-00226680.json,2026-10-17 21:03:00
+494,company,corp_code=00239639,000,저장본,data/raw/dart/cache/company_corp_code-00239639.json,2026-10-17 21:03:00
+495,company,corp_code=00132318,000,저장본,data/raw/dart/cache/company_corp_code-00132318.json,2026-10-17 21:03:00
+496,company,corp_code=01240085,000,저장본,data/raw/dart/cache/company_corp_code-01240085.json,2026-10-17 21:03:00
+497,company,corp_code=01325979,000,저장본,data/raw/dart/cache/company_corp_code-01325979.json,2026-10-17 21:03:00
+498,company,corp_code=00441410,000,저장본,data/raw/dart/cache/company_corp_code-00441410.json,2026-10-17 21:03:00
+499,company,corp_code=00117027,000,저장본,data/raw/dart/cache/company_corp_code-00117027.json,2026-10-17 21:03:00
+500,company,corp_code=00143907,000,저장본,data/raw/dart/cache/company_corp_code-00143907.json,2026-10-17 21:03:00
+501,company,corp_code=00144252,000,저장본,data/raw/dart/cache/company_corp_code-00144252.json,2026-10-17 21:03:00
+502,company,corp_code=00157636,000,저장본,data/raw/dart/cache/company_corp_code-00157636.json,2026-10-17 21:03:00
+503,company,corp_code=00186799,000,저장본,data/raw/dart/cache/company_corp_code-00186799.json,2026-10-17 21:03:00
+504,company,corp_code=00435312,000,저장본,data/raw/dart/cache/company_corp_code-00435312.json,2026-10-17 21:03:00
+505,company,corp_code=00124090,000,저장본,data/raw/dart/cache/company_corp_code-00124090.json,2026-10-17 21:03:00
+506,company,corp_code=00156488,000,저장본,data/raw/dart/cache/company_corp_code-00156488.json,2026-10-17 21:03:00
+507,company,corp_code=00151298,000,저장본,data/raw/dart/cache/company_corp_code-00151298.json,2026-10-17 21:03:00
+508,company,corp_code=00115676,000,저장본,data/raw/dart/cache/company_corp_code-00115676.json,2026-10-17 21:03:00
+509,company,corp_code=00101220,000,저장본,data/raw/dart/cache/company_corp_code-00101220.json,2026-10-17 21:03:00
+510,company,corp_code=00206039,000,저장본,data/raw/dart/cache/company_corp_code-00206039.json,2026-10-17 21:03:00
+511,company,corp_code=00105299,000,저장본,data/raw/dart/cache/company_corp_code-00105299.json,2026-10-17 21:03:00
+512,company,corp_code=00107987,000,저장본,data/raw/dart/cache/company_corp_code-00107987.json,2026-10-17 21:03:00
+513,company,corp_code=00220613,000,저장본,data/raw/dart/cache/company_corp_code-00220613.json,2026-10-17 21:03:00
+514,company,corp_code=00950705,000,저장본,data/raw/dart/cache/company_corp_code-00950705.json,2026-10-17 21:03:00
+515,company,corp_code=00113225,000,저장본,data/raw/dart/cache/company_corp_code-00113225.json,2026-10-17 21:03:00
+516,company,corp_code=00172680,000,저장본,data/raw/dart/cache/company_corp_code-00172680.json,2026-10-17 21:03:00
+517,company,corp_code=01765256,000,저장본,data/raw/dart/cache/company_corp_code-01765256.json,2026-10-17 21:03:00
+518,company,corp_code=01765265,000,저장본,data/raw/dart/cache/company_corp_code-01765265.json,2026-10-17 21:03:00
+519,company,corp_code=00159616,000,저장본,data/raw/dart/cache/company_corp_code-00159616.json,2026-10-17 21:03:00
+520,company,corp_code=00760069,000,저장본,data/raw/dart/cache/company_corp_code-00760069.json,2026-10-17 21:03:00
+521,company,corp_code=00120872,000,저장본,data/raw/dart/cache/company_corp_code-00120872.json,2026-10-17 21:03:00
+522,company,corp_code=00125822,000,저장본,data/raw/dart/cache/company_corp_code-00125822.json,2026-10-17 21:03:00
+523,company,corp_code=00126779,000,저장본,data/raw/dart/cache/company_corp_code-00126779.json,2026-10-17 21:03:00
+524,company,corp_code=00129235,000,저장본,data/raw/dart/cache/company_corp_code-00129235.json,2026-10-17 21:03:00
+525,company,corp_code=00132804,000,저장본,data/raw/dart/cache/company_corp_code-00132804.json,2026-10-17 21:03:00
+526,company,corp_code=00138224,000,저장본,data/raw/dart/cache/company_corp_code-00138224.json,2026-10-17 21:03:00
+527,company,corp_code=00670340,000,저장본,data/raw/dart/cache/company_corp_code-00670340.json,2026-10-17 21:03:00
+528,company,corp_code=00990165,000,저장본,data/raw/dart/cache/company_corp_code-00990165.json,2026-10-17 21:03:00
+529,company,corp_code=00486705,000,저장본,data/raw/dart/cache/company_corp_code-00486705.json,2026-10-17 21:03:00
+530,company,corp_code=00480367,000,저장본,data/raw/dart/cache/company_corp_code-00480367.json,2026-10-17 21:03:00
+531,company,corp_code=01319996,000,저장본,data/raw/dart/cache/company_corp_code-01319996.json,2026-10-17 21:03:00
+532,company,corp_code=00146658,000,저장본,data/raw/dart/cache/company_corp_code-00146658.json,2026-10-17 21:03:00
+533,company,corp_code=00149239,000,저장본,data/raw/dart/cache/company_corp_code-00149239.json,2026-10-17 21:03:00
+534,company,corp_code=01629495,000,저장본,data/raw/dart/cache/company_corp_code-01629495.json,2026-10-17 21:03:00
+535,company,corp_code=00231512,000,저장본,data/raw/dart/cache/company_corp_code-00231512.json,2026-10-17 21:03:00
+536,company,corp_code=00958664,000,저장본,data/raw/dart/cache/company_corp_code-00958664.json,2026-10-17 21:03:00
+537,company,corp_code=00585486,000,저장본,data/raw/dart/cache/company_corp_code-00585486.json,2026-10-17 21:03:00
+538,company,corp_code=01620971,000,저장본,data/raw/dart/cache/company_corp_code-01620971.json,2026-10-17 21:03:00
+539,company,corp_code=00150466,000,저장본,data/raw/dart/cache/company_corp_code-00150466.json,2026-10-17 21:03:00
+540,company,corp_code=00117629,000,저장본,data/raw/dart/cache/company_corp_code-00117629.json,2026-10-17 21:03:00
+541,company,corp_code=00766814,000,저장본,data/raw/dart/cache/company_corp_code-00766814.json,2026-10-17 21:03:00
+542,company,corp_code=00156637,000,저장본,data/raw/dart/cache/company_corp_code-00156637.json,2026-10-17 21:03:00
+543,company,corp_code=00257219,000,저장본,data/raw/dart/cache/company_corp_code-00257219.json,2026-10-17 21:03:00
+544,company,corp_code=01319808,000,저장본,data/raw/dart/cache/company_corp_code-01319808.json,2026-10-17 21:03:00
+545,company,corp_code=00163169,000,저장본,data/raw/dart/cache/company_corp_code-00163169.json,2026-10-17 21:03:00
+546,company,corp_code=00163196,000,저장본,data/raw/dart/cache/company_corp_code-00163196.json,2026-10-17 21:03:00
+547,company,corp_code=00156600,000,저장본,data/raw/dart/cache/company_corp_code-00156600.json,2026-10-17 21:03:00
+548,company,corp_code=00125743,000,저장본,data/raw/dart/cache/company_corp_code-00125743.json,2026-10-17 21:03:00
+549,company,corp_code=01467460,000,저장본,data/raw/dart/cache/company_corp_code-01467460.json,2026-10-17 21:03:00
+550,company,corp_code=00145880,000,저장본,data/raw/dart/cache/company_corp_code-00145880.json,2026-10-17 21:03:00
+551,company,corp_code=00864842,000,저장본,data/raw/dart/cache/company_corp_code-00864842.json,2026-10-17 21:03:00
+552,empSttus,corp_code=00116301&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00116301_reprt_code-11011.json,2026-10-17 21:03:00
+553,empSttus,corp_code=00138260&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00138260_reprt_code-11011.json,2026-10-17 21:03:00
+554,empSttus,corp_code=00117300&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00117300_reprt_code-11011.json,2026-10-17 21:03:00
+555,empSttus,corp_code=00109587&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00109587_reprt_code-11011.json,2026-10-17 21:03:00
+556,empSttus,corp_code=00112721&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00112721_reprt_code-11011.json,2026-10-17 21:03:00
+557,empSttus,corp_code=00428729&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00428729_reprt_code-11011.json,2026-10-17 21:03:00
+558,empSttus,corp_code=00166175&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00166175_reprt_code-11011.json,2026-10-17 21:03:00
+559,empSttus,corp_code=00454937&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00454937_reprt_code-11011.json,2026-10-17 21:03:00
+560,empSttus,corp_code=00415594&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00415594_reprt_code-11011.json,2026-10-17 21:03:00
+561,empSttus,corp_code=00239639&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00239639_reprt_code-11011.json,2026-10-17 21:03:00
+562,empSttus,corp_code=00132318&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00132318_reprt_code-11011.json,2026-10-17 21:03:00
+563,empSttus,corp_code=01325979&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-01325979_reprt_code-11011.json,2026-10-17 21:03:00
+564,empSttus,corp_code=00117027&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00117027_reprt_code-11011.json,2026-10-17 21:03:00
+565,empSttus,corp_code=00143907&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00143907_reprt_code-11011.json,2026-10-17 21:03:00
+566,empSttus,corp_code=00144252&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00144252_reprt_code-11011.json,2026-10-17 21:03:00
+567,empSttus,corp_code=00157636&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00157636_reprt_code-11011.json,2026-10-17 21:03:00
+568,empSttus,corp_code=00186799&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00186799_reprt_code-11011.json,2026-10-17 21:03:00
+569,empSttus,corp_code=00435312&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00435312_reprt_code-11011.json,2026-10-17 21:03:00
+570,empSttus,corp_code=00124090&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00124090_reprt_code-11011.json,2026-10-17 21:03:00
+571,empSttus,corp_code=00156488&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00156488_reprt_code-11011.json,2026-10-17 21:03:00
+572,empSttus,corp_code=00151298&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00151298_reprt_code-11011.json,2026-10-17 21:03:00
+573,empSttus,corp_code=00115676&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00115676_reprt_code-11011.json,2026-10-17 21:03:00
+574,empSttus,corp_code=00101220&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00101220_reprt_code-11011.json,2026-10-17 21:03:00
+575,empSttus,corp_code=00206039&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00206039_reprt_code-11011.json,2026-10-17 21:03:00
+576,empSttus,corp_code=00105299&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00105299_reprt_code-11011.json,2026-10-17 21:03:00
+577,empSttus,corp_code=00107987&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00107987_reprt_code-11011.json,2026-10-17 21:03:00
+578,empSttus,corp_code=00220613&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00220613_reprt_code-11011.json,2026-10-17 21:03:00
+579,empSttus,corp_code=00113225&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00113225_reprt_code-11011.json,2026-10-17 21:03:00
+580,empSttus,corp_code=00172680&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00172680_reprt_code-11011.json,2026-10-17 21:03:00
+581,empSttus,corp_code=01765256&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-01765256_reprt_code-11011.json,2026-10-17 21:03:00
+582,empSttus,corp_code=01765265&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-01765265_reprt_code-11011.json,2026-10-17 21:03:00
+583,empSttus,corp_code=00159616&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00159616_reprt_code-11011.json,2026-10-17 21:03:00
+584,empSttus,corp_code=00120872&bsns_year=2026&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2026_corp_code-00120872_reprt_code-11011.json,2026-10-17 21:03:00
+585,empSttus,corp_code=00125822&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00125822_reprt_code-11011.json,2026-10-17 21:03:00
+586,empSttus,corp_code=00126779&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00126779_reprt_code-11011.json,2026-10-17 21:03:00
+587,empSttus,corp_code=00129235&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00129235_reprt_code-11011.json,2026-10-17 21:03:00
+588,empSttus,corp_code=00132804&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00132804_reprt_code-11011.json,2026-10-17 21:03:00
+589,empSttus,corp_code=00138224&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00138224_reprt_code-11011.json,2026-10-17 21:03:00
+590,empSttus,corp_code=00670340&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00670340_reprt_code-11011.json,2026-10-17 21:03:00
+591,empSttus,corp_code=00990165&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00990165_reprt_code-11011.json,2026-10-17 21:03:00
+592,empSttus,corp_code=00486705&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00486705_reprt_code-11011.json,2026-10-17 21:03:00
+593,empSttus,corp_code=00480367&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00480367_reprt_code-11011.json,2026-10-17 21:03:00
+594,empSttus,corp_code=00149239&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00149239_reprt_code-11011.json,2026-10-17 21:03:00
+595,empSttus,corp_code=01629495&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-01629495_reprt_code-11011.json,2026-10-17 21:03:00
+596,empSttus,corp_code=00231512&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00231512_reprt_code-11011.json,2026-10-17 21:03:00
+597,empSttus,corp_code=00958664&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00958664_reprt_code-11011.json,2026-10-17 21:03:00
+598,empSttus,corp_code=01620971&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-01620971_reprt_code-11011.json,2026-10-17 21:03:00
+599,empSttus,corp_code=00117629&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00117629_reprt_code-11011.json,2026-10-17 21:03:00
+600,empSttus,corp_code=01319808&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-01319808_reprt_code-11011.json,2026-10-17 21:03:00
+601,empSttus,corp_code=00163196&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00163196_reprt_code-11011.json,2026-10-17 21:03:00
+602,empSttus,corp_code=00156600&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00156600_reprt_code-11011.json,2026-10-17 21:03:00
+603,empSttus,corp_code=00125743&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00125743_reprt_code-11011.json,2026-10-17 21:03:00
+604,empSttus,corp_code=00145880&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00145880_reprt_code-11011.json,2026-10-17 21:03:00
+605,empSttus,corp_code=00864842&bsns_year=2025&reprt_code=11011,000,저장본,data/raw/dart/cache/empSttus_bsns_year-2025_corp_code-00864842_reprt_code-11011.json,2026-10-17 21:03:00
